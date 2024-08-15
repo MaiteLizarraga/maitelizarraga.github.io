@@ -12,6 +12,17 @@
     <link href='https://fonts.googleapis.com/css?family=Be Vietnam' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Gilda Display' rel='stylesheet'>
     <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elem = document.querySelector('.grid');
+        var msnry = new Masonry(elem, {
+          // options
+          itemSelector: '.grid-item',
+          columnWidth: '.grid-item',
+          percentPosition: true
+        });
+      });
+    </script>    
     <title>Maite Lizarraga Téllez - Data Scientist - Portfolio</title>
   </head>
   <body>
@@ -57,26 +68,26 @@
       <div class="row" data-masonry='{"percentPosition": true }'>
         <div style="background-color: #f1f1f1; font-family:'Gilda Display'; font-size:1rem; padding: 50px;">
           <h5 style="margin-bottom:20px;">Projects</h5>
-          <div class="grid" data-masonry='{ "itemSelector": ".grid-item"}' style="font-family:'Be Vietnam'; font-size:.9rem; font-variant: small-caps; font-weight: bold; margin-bottom: 2rem;">
-            <div class="grid-item" style="width: 350px; background-color: white; padding: 2%;">
+          <div class="grid" data-masonry='{ "itemSelector": ".grid-item", columnWidth: 200, gutter: 10, percentPosition: true }' style="margin: 0 auto; font-family:'Be Vietnam'; font-size:.9rem; font-variant: small-caps; font-weight: bold; margin-bottom: 2rem;">
+            <div class="grid-item" style="width: 350px; background-color: white; padding: 2%; box-sizing: border-box;">
               <a href="https://github.com/MaiteLizarraga/hendaye_real_estate">
                 Hendaye Real Estate Analysis
                 <img src="img/1.png" alt="real state analysis project" style="max-width: 100%; height: auto;">
               </a>  
             </div>
-            <div class="grid-item" style="width: 400px; background-color: white; padding: 2%;">
+            <div class="grid-item" style="width: 400px; background-color: white; padding: 2%; box-sizing: border-box;">
               <a href="#">
                 SQL
                 <img src="img/2.png" alt="sql project" style="max-width: 100%; height: auto;">
               </a>
             </div>
-            <div class="grid-item" style="width: 200px; background-color: white; padding: 2%;">
+            <div class="grid-item" style="width: 200px; background-color: white; padding: 2%; box-sizing: border-box;">
               <a href="#">
                 Data Analysis
                 <img src="img/3.png" alt="data analysis project" style="max-width: 100%; height: auto;">
               </a>
             </div>
-            <div class="grid-item" style="width: 400px; background-color: white; padding: 2%;">
+            <div class="grid-item" style="width: 400px; background-color: white; padding: 2%; box-sizing: border-box;">
               <a href="#">
                 Data Visualization
                 <img src="img/4.png" alt="data visualization project" style="max-width: 100%; height: auto;">
