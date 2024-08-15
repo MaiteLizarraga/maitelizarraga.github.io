@@ -1,4 +1,8 @@
 #f1f1f1
+Blue: #6c8ec1
+Morado: #79629b
+Green: #668050
+Color Carne: #ffd8aa
 
 Gilda Display
 Be Vietnam
