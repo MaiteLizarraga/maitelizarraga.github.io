@@ -120,23 +120,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
     <script>
-      $('.grid').masonry({
-        // options
-        itemSelector: '.grid-item',
-        columnWidth: 200
-      });
       document.addEventListener('DOMContentLoaded', function () {
-        var elem = document.querySelector('.grid');
-        var msnry = new Masonry(elem, {
+        var grid = document.querySelector('.grid');
+        var msnry = new Masonry(grid, {
           itemSelector: '.grid-item',
-          columnWidth: '.grid-item', // This helps Masonry understand the width of columns
+          columnWidth: '.grid-item',
           percentPosition: true
         });
   
-        imagesLoaded(elem, function() {
-          msnry.layout(); // Ensure layout happens after images have loaded
+        imagesLoaded(grid, function() {
+          msnry.layout();
         });
+  
+        // Re-layout after a slight delay to address timing issues
+        setTimeout(function() {
+          msnry.layout();
+        }, 500); // Adjust timing if necessary
       });
-    </script> 
+    </script>
   </body>
 </html>
