@@ -53,41 +53,46 @@
           <img src="img/skills.png" alt="hard and soft skills Maite Lizarraga" style="max-width: 100%; height: auto; padding:50px;">
         </div>
       </div>
-      <div class="row">
+      <div class="row" data-masonry='{"itemSelector": ".grid-item", "percentPosition": true}'>
         <div style="background-color: #f1f1f1; font-family:'Gilda Display'; font-size:1rem; padding: 50px;">
           <h5 style="margin-bottom:20px;">Projects</h5>
-          <div class="grid js-masonry" style="margin: 0 auto; font-family:'Be Vietnam'; font-size:.9rem; font-variant: small-caps; font-weight: bold; margin-bottom: 2rem;">
-            <div class="grid-item" style="width: 350px; float:left; background-color: white; padding: 2%; box-sizing: border-box;">
+          <div class="grid" style="margin: 0 auto; font-family:'Be Vietnam'; font-size:.9rem; font-variant: small-caps; font-weight: bold; margin-bottom: 2rem;">
+            <div class="grid-item" style="width: 350px; background-color: white; padding: 2%; box-sizing: border-box;">
               <a href="https://github.com/MaiteLizarraga/hendaye_real_estate">
                 Hendaye Real Estate Analysis
-                <img src="img/1.png" alt="real state analysis project" style="max-width: 100%; height: auto;">
+                <img src="img/1.png" alt="real estate analysis project" style="max-width: 100%; height: auto;">
               </a>  
             </div>
-            <div class="grid-item" style="width: 400px; float:left; background-color: white; padding: 2%; box-sizing: border-box;">
+            <div class="grid-item" style="width: 400px; background-color: white; padding: 2%; box-sizing: border-box;">
               <a href="#">
                 SQL
                 <img src="img/2.png" alt="sql project" style="max-width: 100%; height: auto;">
               </a>
             </div>
-            <div class="grid-item" style="width: 200px; float:left; background-color: white; padding: 2%; box-sizing: border-box;">
+            <div class="grid-item" style="width: 200px; background-color: white; padding: 2%; box-sizing: border-box;">
               <a href="#">
                 Data Analysis
                 <img src="img/3.png" alt="data analysis project" style="max-width: 100%; height: auto;">
               </a>
             </div>
-            <div class="grid-item" style="width: 400px; float:left; background-color: white; padding: 2%; box-sizing: border-box;">
+            <div class="grid-item" style="width: 400px; background-color: white; padding: 2%; box-sizing: border-box;">
               <a href="#">
                 Data Visualization
                 <img src="img/4.png" alt="data visualization project" style="max-width: 100%; height: auto;">
               </a>
             </div>
-            <div class="grid-item" style="width: 200px;">Machine Learning</div>
-            <div class="grid-item" style="width: 450px;">Deep Learning</div>
+            <div class="grid-item" style="width: 200px; background-color: white; padding: 2%; box-sizing: border-box;">
+              Machine Learning
+            </div>
+            <div class="grid-item" style="width: 450px; background-color: white; padding: 2%; box-sizing: border-box;">
+              Deep Learning
+            </div>
           </div>
         </div>
       </div>
+      
       <article style="background-color: #f1f1f1; font-family:'Gilda Display'; font-size:1rem; padding: 50px;">
-        <h5 style="margin-bottom:20px;">Previous professionnal experience</h5>
+        <h5 style="margin-bottom:20px;">Previous professional experience</h5>
         <ul class="list-group" style="font-size:.9rem; margin-bottom:50px;">
           <p style="margin-bottom:0">Job Title 1</p>
           <p style="margin-bottom:0">Company 1 - Activity Sector</p>
@@ -113,30 +118,30 @@
           <li class="list-group-item" style="font-family:'Be Vietnam'; font-size: 0.75rem;">Task 3</li>
         </ul>
       </article>
-    </main>
-
-    <!-- Bootstrap JS (Optional if you need Bootstrap's JS components) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-        var grid = document.querySelector('.grid');
-        var msnry = new Masonry(grid, {
-          itemSelector: '.grid-item',
-          columnWidth: '.grid-item',
-          percentPosition: true
+      
+      <!-- Bootstrap JS (Optional if you need Bootstrap's JS components) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var grid = document.querySelector('.grid');
+          var msnry = new Masonry(grid, {
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-item',
+            percentPosition: true
+          });
+      
+          imagesLoaded(grid, function() {
+            msnry.layout();
+          });
+      
+          // Re-layout after a slight delay to address timing issues
+          setTimeout(function() {
+            msnry.layout();
+          }, 500); // Adjust timing if necessary
         });
-  
-        imagesLoaded(grid, function() {
-          msnry.layout();
-        });
-  
-        // Re-layout after a slight delay to address timing issues
-        setTimeout(function() {
-          msnry.layout();
-        }, 500); // Adjust timing if necessary
-      });
-    </script>
+      </script>
+      
   </body>
 </html>
