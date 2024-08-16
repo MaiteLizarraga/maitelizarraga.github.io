@@ -128,8 +128,12 @@
           var grid = document.querySelector('.grid');
           var msnry = new Masonry(grid, {
             itemSelector: '.grid-item',
-            columnWidth: '.grid-item',
-            percentPosition: true
+            percentPosition: true,
+            // Dynamically adjust column width based on available space
+            columnWidth: function (containerWidth) {
+              // Define a minimum column width, e.g., 200px, or calculate based on containerWidth
+              return Math.max(containerWidth / 4, 200);
+            }
           });
       
           imagesLoaded(grid, function() {
@@ -141,7 +145,7 @@
             msnry.layout();
           }, 500); // Adjust timing if necessary
         });
-      </script>
+      </script>   
       
   </body>
 </html>
