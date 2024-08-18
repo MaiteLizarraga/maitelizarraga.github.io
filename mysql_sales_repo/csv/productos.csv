@@ -1,0 +1,16 @@
+id_producto;nombre_producto;stock_producto;precio_producto;id_proveedor;id_cat
+1;Producto1;30;50 euros;1;1
+2;Producto2;300;90 centimos;1;1
+4;Producto4;20;100 Dolares;1;2
+10;Producto 10;0;100 Dolares;1;3
+12;Producto 12;0;99 centimos;1;1
+9;Producto 9;0;80 euros;1;3
+3;Producto3;2;300 euros;1;3
+5;Producto 5;5;700 euros;1;2
+6;Producto 6;4;10 euros;1;3
+7;Producto 7;19;7 euros;1;2
+8;Producto 8;13;21,8 euros;1;3
+12;Producto 12;0;99 centimos;2;1
+12;Producto 12;0;99 centimos;3;1
+11;Producto 11;0;1100 euros;4;2
+12;Producto 12;0;99 centimos;4;1
