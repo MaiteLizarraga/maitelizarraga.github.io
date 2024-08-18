@@ -25,14 +25,16 @@
             font-size: 2rem;
             padding: 20px;
             margin-bottom: 20px;
+            cursor: pointer;
         }
 
-        div {
+        .content {
             font-size: 1.2rem;
             margin: 20px 0;
             padding: 20px;
             background-color: #ffd8aa; /* Color Carne */
             border-left: 5px solid #668050; /* Green */
+            display: none;
         }
 
         ul {
@@ -60,41 +62,63 @@
             padding: 2px 5px;
             border-radius: 3px;
         }
+
+        /* Accordion Styles */
+        .accordion-content {
+            display: none;
+        }
+
+        .accordion-content.active {
+            display: block;
+        }
     </style>
 </head>
 <body>
-    <aside>How to set up a new Github Repository from Google Colab</aside>
-    <div>Create Repo in your Github espace. Create a Token and save it somewhere so that it doesn't get lost as you will need it later.</div>
-    <ul>Step 1:</ul>
+    <aside onclick="toggleAccordion('accordion1')">How to set up a new Github Repository from Google Colab</aside>
+    <div id="accordion1" class="accordion-content">
+        <p>Create Repo in your Github space. Create a Token and save it somewhere so that it doesn't get lost as you will need it later.</p>
+        <ul>Step 1:</ul>
         <li><code>from google.colab import drive</code><br><code>drive.mount('/content/drive')</code></li>
-    <ul>Step 2:</ul>
+        <ul>Step 2:</ul>
         <li><code>!apt-get install git</code></li>
-    <ul>Step 3:</ul>
+        <ul>Step 3:</ul>
         <li><code>%cd /content/drive/MyDrive/Github/</code></li>
-    <ul>Step 4:</ul>
+        <ul>Step 4:</ul>
         <li><code>!git init mysql_sales_repo</code></li>
-    <ul>Step 5:</ul>
+        <ul>Step 5:</ul>
         <li><code>%cd mysql_sales_repo</code></li>
         <li><code>%ls -a</code></li>
-    <ul>Step 6:</ul>
+        <ul>Step 6:</ul>
         <li><code>!git status</code></li>
         <li><code>!git add .</code></li>
         <li><code>!git commit -m "initial commit"</code></li>
-    <ul>Step 7:</ul>
+        <ul>Step 7:</ul>
         <li><code>!git config --global user.email "maite.lizarraga@gmail.com"</code><br>
             <code>!git config --global user.name "MaiteLizarraga"</code></li>
-    <ul>Step 8:</ul>
+        <ul>Step 8:</ul>
         <li><code>!git remote add origin https://github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
-    <ul>Step 9:</ul>
+        <ul>Step 9:</ul>
         <li><code>!git remote -v</code></li>
-    <ul>Step 10:</ul>
+        <ul>Step 10:</ul>
         <li><code>!git branch -M main</code></li>
-    <ul>Step 11:</ul>
+        <ul>Step 11:</ul>
         <li><code>!git remote set-url origin https://MaiteLizarraga:mysql_exam@github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
-    <ul>Step 12:</ul>
+        <ul>Step 12:</ul>
         <li><code>!git fetch origin</code></li>
-    <ul>Step 13:</ul>
+        <ul>Step 13:</ul>
         <li><code>!git pull --rebase origin main</code></li>
         <li><code>!git pull origin main</code></li>
+    </div>
+
+    <script>
+        function toggleAccordion(id) {
+            var content = document.getElementById(id);
+            if (content.classList.contains('active')) {
+                content.classList.remove('active');
+            } else {
+                content.classList.add('active');
+            }
+        }
+    </script>
 </body>
 </html>
