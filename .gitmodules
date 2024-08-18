@@ -1,0 +1,3 @@
+[submodule "mysql_sales_repo"]
+	path = mysql_sales_repo
+	url = https://github.com/MaiteLizarraga/mysql_sales_repo
