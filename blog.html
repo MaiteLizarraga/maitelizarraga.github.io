@@ -110,6 +110,34 @@
         <li><code>!git pull origin main</code></li>
     </div>
 
+    <aside onclick="toggleAccordion('accordion1')">How to create a submodule in Github</aside>
+    <div id="accordion1" class="accordion-content">
+        <p>Create Repo in your Github space with Readme.md file.</p>
+        <ul>Step 1:</ul>
+        <li><code>git remote -v</code></li>
+        <ul>Step 2:</ul>
+        <li><code>git remote set-url origin https://github.com/MaiteLizarraga/edl_univariate_food.git</code></li>
+        <ul>Step 3:</ul>
+        <li><code>git remote -v</code></li>
+        <ul>Step 4:</ul>
+        <li><code>git submodule add https://github.com/MaiteLizarraga/edl_univariate_food.git</code></li>
+        <ul>Step 5 (optional):</ul>
+        <li><code>git submodule init</code></li>
+        <li><code>git submodule update</code></li>
+        <ul>Step 6:</ul>
+        <li><code>git add .</code></li>
+        <li><code>git commit -m "added new submodule edl_univariate_food"</code></li>
+        <ul>Step 7 (go to child repo repo):</ul>
+        <li><code>cd edl_univariate_food</code><br>
+        <li><code>git pull origin main</code><br>
+        <ul>Step 8 (go back to parent repo):</ul>
+        <li><code>cd ..</code></li>
+        <li><code>git remote set-url origin https://github.com/MaiteLizarraga/maitelizarraga.github.io.git</code></li>
+        <li><code>git remote -v</code></li>
+        <ul>Step 9:</ul>
+        <li><code>git push</code></li>
+    </div>
+
     <script>
         function toggleAccordion(id) {
             var content = document.getElementById(id);
