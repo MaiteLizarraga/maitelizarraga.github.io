@@ -1,3 +1,6 @@
 [submodule "mysql_sales_repo"]
 	path = mysql_sales_repo
 	url = https://github.com/MaiteLizarraga/mysql_sales_repo
+[submodule "edl_univariate_food"]
+	path = edl_univariate_food
+	url = https://github.com/MaiteLizarraga/edl_univariate_food.git
