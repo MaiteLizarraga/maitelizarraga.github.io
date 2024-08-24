@@ -147,7 +147,7 @@
         <aside onclick="toggleAccordion('accordion2')">How to create a submodule in Github</aside>
         <div id="accordion2" class="accordion-content">
             <div class="content">
-                <p>Create a Repo in your Github space with Readme.md file.</p>
+                <p>Create a Repo in your Github space with Readme.md file (if you want to pull the readme.md file into your local folder before anything else, check post number 4)</p>
                 <p>Push Local Changes to the New GitHub Repository. If you already have a local repository that you want to push to this new GitHub repository, follow these steps:</p>
                 <ul>
                     <li>Step 1: <code>cd /path/to/your/local/repo</code></li>
@@ -185,6 +185,31 @@
                     <li>Step 6: <code>git add .</code></li>
                     <li>Step 7: <code>git commit -m "added SQL language to linguist"</code></li>
                     <li>Step 8: <code>git push origin main</code></li>
+                </ul>
+            </div>
+        </div>
+
+        <aside onclick="toggleAccordion('accordion4')">How to add a language with "linguist" to Github</aside>
+        <div id="accordion4" class="accordion-content">
+            <div class="content">
+                <p>Adding programming languages that are not automatically detected by Github can help you boost your stats.</p>
+                <ul>
+                    <li>Step 1: Initialize Your Local Repository
+                        <code>cd /path/to/your/local/folder</code>
+                        <code>git init</code>
+                    </li>
+                    <li>Step 2: Add the Remote Repository
+                        <code>git remote add origin https://github.com/username/repository.git</code>
+                    </li>
+                    <li>Step 3 Fetch Repository Contents:
+                        <code>git fetch origin</code>
+                    </li>
+                    <li>Step 4: Check Out the Remote Branch
+                        <code>git checkout -b main origin/main</code>
+                    </li>
+                    <li>Step 5: Pull Changes
+                        <code>git pull origin main</code>
+                    </li>
                 </ul>
             </div>
         </div>
