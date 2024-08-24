@@ -138,6 +138,33 @@
         <li><code>git push</code></li>
     </div>
 
+    <aside onclick="toggleAccordion('accordion2')">How to add a language to Github</aside>
+    <div id="accordion2" class="accordion-content">
+        <p>Adding programming languages that are not automatically detected by Github can help you boost your stats.</p>
+        <ul>Step 1:</ul>
+        <li><code>cd</code> to the repo you want to add a language to</li>        
+        <ul>Step 2 (if .gitattributes has not been created yet, otherwise you can skip this step):</ul>
+        <li><code>touch .gitattributes</code></li>
+        <ul>Step 3:</ul>
+        <li><code>nano .gitattributes</code></li>
+        <ul>Step 4 (inside the nano text editor in my case):</ul>
+        <li>Imagine you want to add SQL to your languages: 
+            <code>*.sql linguist-detectable=true</code>
+            <code>*.sql linguist-language=sql</code>
+        </li>
+        <ul>Step 5 (save and close nano):</ul>
+        <li><code>ctrl + O</code> (save)</li>
+        <li><code>enter</code> (save)</li>
+        <li><code>ctrl + x</code> (exit)</li>
+        <ul>Step 6:</ul>
+        <li><code>git add .</code></li>
+        <li><code>git commit -m "added SQL language to linguist"</code></li>
+        <ul>Step 7:</ul>
+        <li>repeat the first 6 steps in the parent repo as necessary.</li>
+        <ul>Step 8 (in both the parent and the child repos):</ul>
+        <li><code>git push origin main</code></li>
+    </div>
+
     <script>
         function toggleAccordion(id) {
             var content = document.getElementById(id);
