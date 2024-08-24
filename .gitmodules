@@ -10,3 +10,6 @@
 [submodule "playing_with_python"]
 	path = playing_with_python
 	url = https://github.com/MaiteLizarraga/playing_with_python.git
+[submodule "postgres_project_management"]
+	path = postgres_project_management
+	url = https://github.com/MaiteLizarraga/postgres_project_management.git
