@@ -10,49 +10,67 @@
 
         body {
             font-family: 'Be Vietnam', sans-serif;
-            background-color: #f1f1f1; /* Grey */
+            background-color: #f7f7f7;
             color: #333;
-            margin: 0 auto;
-            padding: 0;
-            line-height: 1.6;
-            width: 1000px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.8;
         }
 
-        aside {
-            background-color: #6c8ec1; /* Blue */
-            color: #fff;
+        /* Blog Container */
+        .blog-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Blog Header */
+        h1 {
+            font-family: 'Gilda Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        h2 {
             font-family: 'Gilda Display', serif;
             font-size: 2rem;
-            padding: 20px;
-            margin-bottom: 20px;
-            cursor: pointer;
+            color: #34495e;
+            margin-top: 30px;
         }
 
+        /* Blog Content */
         .content {
-            font-size: 1.2rem;
-            margin: 20px 0;
-            padding: 20px;
-            background-color: #ffd8aa; /* Color Carne */
-            border-left: 5px solid #668050; /* Green */
-            display: none;
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            padding-left: 15px;
+            border-left: 4px solid #3498db;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
         }
 
         ul {
-            list-style-type: none;
-            padding-left: 0;
+            list-style-type: disc;
+            padding-left: 40px;
             margin: 20px 0;
         }
 
         ul li {
-            background-color: #79629b; /* Morado */
-            color: #fff;
+            background-color: #e9ecef;
+            color: #2c3e50;
             padding: 10px;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
             border-radius: 5px;
-        }
-
-        ul li:not(:first-child) {
-            background-color: #6c8ec1; /* Blue */
         }
 
         ul li code {
@@ -61,118 +79,117 @@
             color: #333;
             padding: 2px 5px;
             border-radius: 3px;
+            font-size: 0.95rem;
         }
 
         /* Accordion Styles */
+        aside {
+            background-color: #3498db;
+            color: #fff;
+            font-family: 'Gilda Display', serif;
+            font-size: 1.5rem;
+            padding: 15px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        aside:hover {
+            background-color: #2980b9;
+        }
+
         .accordion-content {
             display: none;
+            margin-bottom: 20px;
         }
 
         .accordion-content.active {
             display: block;
         }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #999;
+        }
     </style>
 </head>
 <body>
-    <aside onclick="toggleAccordion('accordion1')">How to set up a new Github Repository from Google Colab</aside>
-    <div id="accordion1" class="accordion-content">
-        <p>Create Repo in your Github space. Create a Token and save it somewhere so that it doesn't get lost as you will need it later.</p>
-        <ul>Step 1:</ul>
-        <li><code>from google.colab import drive</code><br><code>drive.mount('/content/drive')</code></li>
-        <ul>Step 2:</ul>
-        <li><code>!apt-get install git</code></li>
-        <ul>Step 3:</ul>
-        <li><code>%cd /content/drive/MyDrive/Github/</code></li>
-        <ul>Step 4:</ul>
-        <li><code>!git init mysql_sales_repo</code></li>
-        <ul>Step 5:</ul>
-        <li><code>%cd mysql_sales_repo</code></li>
-        <li><code>%ls -a</code></li>
-        <ul>Step 6:</ul>
-        <li><code>!git status</code></li>
-        <li><code>!git add .</code></li>
-        <li><code>!git commit -m "initial commit"</code></li>
-        <ul>Step 7:</ul>
-        <li><code>!git config --global user.email "maite.lizarraga@gmail.com"</code><br>
-            <code>!git config --global user.name "MaiteLizarraga"</code></li>
-        <ul>Step 8:</ul>
-        <li><code>!git remote add origin https://github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
-        <ul>Step 9:</ul>
-        <li><code>!git remote -v</code></li>
-        <ul>Step 10:</ul>
-        <li><code>!git branch -M main</code></li>
-        <ul>Step 11:</ul>
-        <li><code>!git remote set-url origin https://MaiteLizarraga:mysql_exam@github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
-        <ul>Step 12:</ul>
-        <li><code>!git fetch origin</code></li>
-        <ul>Step 13:</ul>
-        <li><code>!git pull --rebase origin main</code></li>
-        <li><code>!git pull origin main</code></li>
+    <div class="blog-container">
+        <h1>My Blog</h1>
+
+        <aside onclick="toggleAccordion('accordion1')">How to set up a new Github Repository from Google Colab</aside>
+        <div id="accordion1" class="accordion-content">
+            <div class="content">
+                <p>Create a Repo in your Github space. Create a Token and save it somewhere so that it doesn't get lost as you will need it later.</p>
+                <ul>
+                    <li>Step 1: <code>from google.colab import drive</code><br><code>drive.mount('/content/drive')</code></li>
+                    <li>Step 2: <code>!apt-get install git</code></li>
+                    <li>Step 3: <code>%cd /content/drive/MyDrive/Github/</code></li>
+                    <li>Step 4: <code>!git init mysql_sales_repo</code></li>
+                    <li>Step 5: <code>%cd mysql_sales_repo</code></li>
+                    <li>Step 6: <code>!git status</code></li>
+                    <li>Step 7: <code>!git config --global user.email "maite.lizarraga@gmail.com"</code><br>
+                        <code>!git config --global user.name "MaiteLizarraga"</code></li>
+                    <li>Step 8: <code>!git remote add origin https://github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
+                    <li>Step 9: <code>!git remote -v</code></li>
+                    <li>Step 10: <code>!git branch -M main</code></li>
+                    <li>Step 11: <code>!git remote set-url origin https://MaiteLizarraga:mysql_exam@github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
+                    <li>Step 12: <code>!git fetch origin</code></li>
+                    <li>Step 13: <code>!git pull --rebase origin main</code></li>
+                </ul>
+            </div>
+        </div>
+
+        <aside onclick="toggleAccordion('accordion2')">How to create a submodule in Github</aside>
+        <div id="accordion2" class="accordion-content">
+            <div class="content">
+                <p>Create a Repo in your Github space with Readme.md file.</p>
+                <ul>
+                    <li>Step 1: <code>git remote -v</code></li>
+                    <li>Step 2: <code>git remote set-url origin https://github.com/MaiteLizarraga/edl_univariate_food.git</code></li>
+                    <li>Step 3: <code>git submodule add https://github.com/MaiteLizarraga/edl_univariate_food.git</code></li>
+                    <li>Step 4: <code>git submodule init</code></li>
+                    <li>Step 5: <code>git submodule update</code></li>
+                    <li>Step 6: <code>git add .</code></li>
+                    <li>Step 7: <code>git commit -m "added new submodule edl_univariate_food"</code></li>
+                    <li>Step 8: <code>git push origin main</code></li>
+                </ul>
+            </div>
+        </div>
+
+        <aside onclick="toggleAccordion('accordion3')">How to add a language to Github</aside>
+        <div id="accordion3" class="accordion-content">
+            <div class="content">
+                <p>Adding programming languages that are not automatically detected by Github can help you boost your stats.</p>
+                <ul>
+                    <li>Step 1: <code>cd</code> to the repo you want to add a language to</li>
+                    <li>Step 2: <code>touch .gitattributes</code></li>
+                    <li>Step 3: <code>nano .gitattributes</code></li>
+                    <li>Step 4: Inside the nano text editor, add:
+                        <code>*.sql linguist-detectable=true</code><br>
+                        <code>*.sql linguist-language=SQL</code>
+                    </li>
+                    <li>Step 5: <code>ctrl + O</code> (save), <code>enter</code> (confirm), <code>ctrl + X</code> (exit)</li>
+                    <li>Step 6: <code>git add .</code></li>
+                    <li>Step 7: <code>git commit -m "added SQL language to linguist"</code></li>
+                    <li>Step 8: <code>git push origin main</code></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <aside onclick="toggleAccordion('accordion2')">How to create a submodule in Github</aside>
-    <div id="accordion2" class="accordion-content">
-        <p>Create Repo in your Github space with Readme.md file.</p>
-        <ul>Step 1:</ul>
-        <li><code>git remote -v</code></li>
-        <ul>Step 2:</ul>
-        <li><code>git remote set-url origin https://github.com/MaiteLizarraga/edl_univariate_food.git</code></li>
-        <ul>Step 3:</ul>
-        <li><code>git remote -v</code></li>
-        <ul>Step 4:</ul>
-        <li><code>git submodule add https://github.com/MaiteLizarraga/edl_univariate_food.git</code></li>
-        <ul>Step 5 (optional):</ul>
-        <li><code>git submodule init</code></li>
-        <li><code>git submodule update</code></li>
-        <ul>Step 6:</ul>
-        <li><code>git add .</code></li>
-        <li><code>git commit -m "added new submodule edl_univariate_food"</code></li>
-        <ul>Step 7 (go to child repo repo):</ul>
-        <li><code>cd edl_univariate_food</code><br></li>
-        <li><code>git pull origin main</code><br></li>
-        <ul>Step 8 (go back to parent repo):</ul>
-        <li><code>cd ..</code></li>
-        <li><code>git remote set-url origin https://github.com/MaiteLizarraga/maitelizarraga.github.io.git</code></li>
-        <li><code>git remote -v</code></li>
-        <ul>Step 9:</ul>
-        <li><code>git push</code></li>
-    </div>
-
-    <aside onclick="toggleAccordion('accordion2')">How to add a language to Github</aside>
-    <div id="accordion2" class="accordion-content">
-        <p>Adding programming languages that are not automatically detected by Github can help you boost your stats.</p>
-        <ul>Step 1:</ul>
-        <li><code>cd</code> to the repo you want to add a language to</li>        
-        <ul>Step 2 (if .gitattributes has not been created yet, otherwise you can skip this step):</ul>
-        <li><code>touch .gitattributes</code></li>
-        <ul>Step 3:</ul>
-        <li><code>nano .gitattributes</code></li>
-        <ul>Step 4 (inside the nano text editor in my case):</ul>
-        <li>Imagine you want to add SQL to your languages: 
-            <code>*.sql linguist-detectable=true</code>
-            <code>*.sql linguist-language=sql</code>
-        </li>
-        <ul>Step 5 (save and close nano):</ul>
-        <li><code>ctrl + O</code> (save)</li>
-        <li><code>enter</code> (save)</li>
-        <li><code>ctrl + x</code> (exit)</li>
-        <ul>Step 6:</ul>
-        <li><code>git add .</code></li>
-        <li><code>git commit -m "added SQL language to linguist"</code></li>
-        <ul>Step 7:</ul>
-        <li>repeat the first 6 steps in the parent repo as necessary.</li>
-        <ul>Step 8 (in both the parent and the child repos):</ul>
-        <li><code>git push origin main</code></li>
-    </div>
+    <footer>
+        &copy; 2024 My Blog - All rights reserved.
+    </footer>
 
     <script>
         function toggleAccordion(id) {
             var content = document.getElementById(id);
-            if (content.classList.contains('active')) {
-                content.classList.remove('active');
-            } else {
-                content.classList.add('active');
-            }
+            content.classList.toggle('active');
         }
     </script>
 </body>
