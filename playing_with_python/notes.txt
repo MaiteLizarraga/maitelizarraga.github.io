@@ -1,0 +1,1 @@
+https://rest.uniprot.org/uniprotkb/P68871.json
