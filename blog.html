@@ -147,8 +147,16 @@
         <aside onclick="toggleAccordion('accordion2')">How to create a submodule in Github</aside>
         <div id="accordion2" class="accordion-content">
             <div class="content">
-                <p>Create a Repo in your Github space with Readme.md file (if you want to pull the readme.md file into your local folder before anything else, check post number 4)</p>
-                <p>Push Local Changes to the New GitHub Repository. If you already have a local repository that you want to push to this new GitHub repository, follow these steps:</p>
+                <p>Create a Repo in your Github space with Readme.md file.</p>
+                <p>Don't forget to pull the readme file into your local folder. To do so:</p>
+                <ul>
+                    <li>Step 1: cd path/to/your/local/repo</li>
+                    <li>Step 2: <code>git init</code></li>
+                    <li>Step 3: point to your remote repository by doing <code>git remote set-url origin my/remote/repository</code></li>
+                    <li>Step 3: <code>git fetch origin</code></li>
+                    <li>Step 4: <code>git commit -am "readme file"</code></li>
+                </ul>
+                <p>If you already have a local repository that you want to push to this new GitHub repository, follow these steps:</p>
                 <ul>
                     <li>Step 1: <code>cd /path/to/your/local/repo</code></li>
                     <li>Step 2: <code>git remote add origin https://github.com/your-username/playing_with_python.git</code></li>
