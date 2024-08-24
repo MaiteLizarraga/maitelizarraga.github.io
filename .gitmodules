@@ -4,9 +4,6 @@
 [submodule "edl_univariate_food"]
 	path = edl_univariate_food
 	url = https://github.com/MaiteLizarraga/edl_univariate_food.git
-[submodule "/mnt/c/Users/maite/Desktop/maitelizarraga.github.io/playing_with_python/playing_with_python"]
-	path = /mnt/c/Users/maite/Desktop/maitelizarraga.github.io/playing_with_python/playing_with_python
-	url = https://github.com/MaiteLizarraga/playing_with_python.git
 [submodule "playing_with_python"]
 	path = playing_with_python
 	url = https://github.com/MaiteLizarraga/playing_with_python.git
