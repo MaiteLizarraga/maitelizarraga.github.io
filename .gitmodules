@@ -10,3 +10,6 @@
 [submodule "postgres_project_management"]
 	path = postgres_project_management
 	url = https://github.com/MaiteLizarraga/postgres_project_management.git
+[submodule "r_pca"]
+	path = r_pca
+	url = https://github.com/MaiteLizarraga/r_pca.git
