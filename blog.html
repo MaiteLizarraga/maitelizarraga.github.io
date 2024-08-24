@@ -217,8 +217,10 @@
         <aside onclick="toggleAccordion('accordion5')">How to handle a Push error in Github</aside>
         <div id="accordion5" class="accordion-content">
             <div class="content">
-                <p>If you're getting an error when trying to push your local changes into a remote repository in Github as in the image below, you just have to force the push by doing <code>git push --force origin main</code>.</p>
+                <p>If you're getting an error when trying to push your local changes into a remote repository in Github as in the image below:</p>
                 <img src="https://github.com/MaiteLizarraga/maitelizarraga.github.io/blob/main/img/pushing error.png" alt="">
+                <p>you just have to check the remote url by doing <code>git remote -v</code></p>
+                <p>and in case you're pointing at the correct repo, you can force the push by doing <code>git push --force origin main</code>.</p>
             </div>
         </div>
     </div>
