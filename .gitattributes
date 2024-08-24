@@ -1,2 +1,5 @@
+*.sql linguist-language=SQL
+*.sql linguist-detectable=true
 *.pbix linguist-language=PowerBI
+*.pbix linguist-detectable=true
 
