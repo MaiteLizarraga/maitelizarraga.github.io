@@ -120,6 +120,18 @@ img {
   height: auto;
 }
 
+/* Hover Images */
+
+.project-content {
+  position: relative; /* Set to relative for absolute positioning of text */
+}
+
+.project-content img {
+  display: block; /* Ensure image is displayed as block */
+  width: 100%; /* Make sure image scales within container */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .hover-text {
   display: none; /* Hide text by default */
   position: absolute; /* Position absolutely within the container */
