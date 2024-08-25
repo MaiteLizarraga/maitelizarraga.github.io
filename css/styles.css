@@ -38,14 +38,6 @@
     margin: 0;
   }
   
-  a {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
   /* Data Projects */
   .grid {
     display: flex;
@@ -111,5 +103,33 @@
   img {
     max-width: 100%;
     height: auto;
+  }
+
+/* Style for hover-info */
+.hover-info {
+    display: none; /* Hide by default */
+    position: absolute; /* Position it absolutely */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with opacity */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 0.9rem; /* Smaller font size */
+    z-index: 10; /* Make sure it's on top */
+    bottom: 0; /* Position it at the bottom */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Make it as wide as the parent */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Parent anchor styles */
+  a {
+    position: relative; /* Make parent position relative */
+    display: inline-block; /* Ensure it’s not block-level */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  /* Show hover-info on hover */
+  a:hover .hover-info {
+    display: block; /* Show on hover */
   }
   
