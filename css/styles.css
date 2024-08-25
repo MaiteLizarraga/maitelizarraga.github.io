@@ -69,7 +69,7 @@
   }
   
   /* Education */
-  .col-6 {
+  .col, .col-6 {
     font-family: 'Gilda Display', serif;
     font-size: 1rem;
     padding: 50px;
@@ -77,6 +77,10 @@
   
   .col-6:nth-child(1),
   .col-6:nth-child(3) {
+    background-color: #f1f1f1;
+  }
+
+  .col {
     background-color: #f1f1f1;
   }
   
