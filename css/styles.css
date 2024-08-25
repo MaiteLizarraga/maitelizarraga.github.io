@@ -1,0 +1,115 @@
+/* General Styling for Categories */
+.category {
+    background-color: #6c8ec1;
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1000px;
+  }
+  
+  /* Header */
+  header.text-center {
+    margin-bottom: 0;
+    padding: 0 !important;
+  }
+  
+  /* Contact Information */
+  h6 {
+    float: left;
+    font-family: 'Gilda Display', serif;
+    font-size: 1rem;
+    padding: 20px 50px;
+    margin: 0;
+  }
+  
+  p {
+    float: left;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: .75rem;
+    padding: 20px 10px;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Data Projects */
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    background-color: white;
+    padding: 2%;
+    box-sizing: border-box;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Data Projects Specific */
+  h5 {
+    margin-bottom: 20px;
+  }
+  
+  /* Education */
+  .col-6 {
+    font-family: 'Gilda Display', serif;
+    font-size: 1rem;
+    padding: 50px;
+  }
+  
+  .col-6:nth-child(1),
+  .col-6:nth-child(3) {
+    background-color: #f1f1f1;
+  }
+  
+  ul {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 1.25rem;
+    font-variant: small-caps;
+    font-weight: bold;
+  }
+  
+  ul ul {
+    font-family: 'Gilda Display', serif;
+    font-size: 1.25rem;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding-bottom: 2rem;
+  }
+  
+  li {
+    padding-bottom: 2rem;
+    line-height: 1;
+  }
+  
+  li span {
+    font-family: 'Gilda Display', serif;
+    font-variant: normal;
+    font-size: .8rem;
+    font-weight: normal;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
