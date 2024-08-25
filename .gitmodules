@@ -13,3 +13,6 @@
 [submodule "r_eigenfaces_pca"]
 	path = r_eigenfaces_pca
 	url = https://github.com/MaiteLizarraga/r_eigenfaces_pca.git
+[submodule "r_markov_chains.git"]
+	path = r_markov_chains.git
+	url = https://github.com/MaiteLizarraga/r_markov_chains.git
