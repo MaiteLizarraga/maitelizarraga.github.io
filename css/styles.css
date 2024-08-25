@@ -122,6 +122,13 @@ img {
 
 /* Hover Images */
 
+.project-link {
+  position: relative; /* Set the link to relative to position child elements absolutely */
+  display: block; /* Ensure it’s block-level */
+  text-decoration: none; /* Remove underline from links */
+  margin-top: 10px;
+}
+
 .project-content {
   position: relative; /* Set to relative for absolute positioning of text */
 }
