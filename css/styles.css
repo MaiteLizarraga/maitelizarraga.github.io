@@ -84,7 +84,7 @@ h5 {
 .col-6 {
   font-family: 'Gilda Display', serif;
   font-size: 1rem;
-  padding: 50px;
+  padding: 50px 20px;
 }
 
 .col-6:nth-child(1),
