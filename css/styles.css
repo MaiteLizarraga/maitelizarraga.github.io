@@ -127,6 +127,7 @@ img {
   display: block; /* Ensure it’s block-level */
   text-decoration: none; /* Remove underline from links */
   margin-top: 10px;
+  overflow: auto;
 }
 
 .project-content {
