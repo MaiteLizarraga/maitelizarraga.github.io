@@ -10,6 +10,18 @@
   margin-bottom: 5px;
 }
 
+.cat-color-purple {
+  background-color: #79629b;
+}
+
+.cat-color-green {
+  background-color: #668050;
+}
+
+.cat-color-peach {
+  background-color: #ffd8aa;
+}
+
 /* Container */
 .container {
   max-width: 1000px;
