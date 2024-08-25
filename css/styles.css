@@ -1,9 +1,9 @@
 /* General Styling for Categories */
 .category {
   background-color: #6c8ec1;
-  border-radius: 20px;
-  font-size: 12px;
-  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 3px 8px;
   text-align: center;
   color: white;
   display: inline-block;
@@ -163,7 +163,7 @@ img {
   padding: 10px; /* Padding around the text */
   border-radius: 5px; /* Rounded corners */
   text-align: center; /* Center text */
-  font-size: 0.9rem; /* Smaller font size */
+  font-size: 0.7rem; /* Smaller font size */
   z-index: 10; /* Ensure it's above the image */
 }
 
