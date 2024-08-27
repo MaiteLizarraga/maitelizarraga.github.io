@@ -1,15 +1,16 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Sorts+Mill+Goudy&display=swap');
 
 @font-face {
     font-family: 'RoxboroughCF';
-    src: url('assets/fonts/RoxboroughCF.woff2') format('woff2'),
-         url('assets/fonts/RoxboroughCF.woff') format('woff');
+    src: url('../assets/fonts/RoxboroughCF.woff2') format('woff2'),
+         url('../assets/fonts/RoxboroughCF.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f8dcbf; /* Naranja clarito, tipo beige */
     color: #001f3d; /* Azul oscuro */
     margin: 0;
     padding: 20px;
