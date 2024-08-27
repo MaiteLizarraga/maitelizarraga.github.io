@@ -1,6 +1,9 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=RoxboroughCF&family=Montserrat:wght@400;500&family=Sorts+Mill+Goudy&display=swap');
+
 /* General Styling for Categories */
 .category {
-  background-color: #6c8ec1;
+  background-color: #045174; /* Azul más clarito */
   border-radius: 10px;
   font-size: 10px;
   padding: 3px 8px;
@@ -11,15 +14,15 @@
 }
 
 .cat-color-purple {
-  background-color: #79629b;
+  background-color: #001f3d; /* Azul oscuro */
 }
 
 .cat-color-green {
-  background-color: #668050;
+  background-color: #668050; /* Default green, left unchanged */
 }
 
 .cat-color-peach {
-  background-color: #ffd8aa;
+  background-color: #e87a00; /* Naranja chillón */
 }
 
 /* Container */
@@ -36,7 +39,7 @@ header.text-center {
 /* Contact Information */
 h6 {
   float: left;
-  font-family: 'Gilda Display', serif;
+  font-family: 'RoxboroughCF', serif;
   font-size: 1rem;
   padding: 20px 50px;
   margin: 0;
@@ -44,20 +47,20 @@ h6 {
 
 p {
   float: left;
-  font-family: 'Be Vietnam', sans-serif;
-  font-size: .75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
   padding: 20px 10px;
   margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #001f3d; /* Azul oscuro */
 }
 
 a:hover {
   text-decoration: underline;
-  color: black;
+  color: #e87a00; /* Naranja chillón */
 }
 
 /* Data Projects */
@@ -84,32 +87,32 @@ h5 {
 
 /* Education */
 .col-6 {
-  font-family: 'Gilda Display', serif;
+  font-family: 'RoxboroughCF', serif;
   font-size: 1rem;
   padding: 50px 20px;
 }
 
 .col-6:nth-child(1),
 .col-6:nth-child(3) {
-  background-color: #f1f1f1;
+  background-color: #f8dcbf; /* Naranja clarito, tipo beige */
 }
 
 .col-gen {
-  background-color: #f1f1f1;
-  font-family: 'Gilda Display', serif;
+  background-color: #f8dcbf; /* Naranja clarito, tipo beige */
+  font-family: 'RoxboroughCF', serif;
   font-size: 1rem;
   padding: 50px 20px;
 }
 
 ul {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
   font-variant: small-caps;
   font-weight: bold;
 }
 
 ul ul {
-  font-family: 'Gilda Display', serif;
+  font-family: 'RoxboroughCF', serif;
   font-size: 1.25rem;
   font-variant: small-caps;
   font-weight: bold;
@@ -122,9 +125,9 @@ li {
 }
 
 li span {
-  font-family: 'Gilda Display', serif;
+  font-family: 'RoxboroughCF', serif;
   font-variant: normal;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: normal;
 }
 
@@ -135,7 +138,6 @@ img {
 }
 
 /* Hover Images */
-
 .project-link {
   position: relative; /* Set the link to relative to position child elements absolutely */
   display: block; /* Ensure it’s block-level */
