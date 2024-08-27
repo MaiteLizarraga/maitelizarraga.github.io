@@ -96,7 +96,7 @@ a:hover {
 }
 
 .grid-item img {
-  max-width: 85%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -130,6 +130,7 @@ ul {
   font-size: 1.25rem;
   font-variant: small-caps;
   font-weight: bold;
+  color: #001f3d;
 }
 
 ul ul {
@@ -154,7 +155,7 @@ li span {
 
 /* Images */
 img {
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
 }
 
