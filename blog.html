@@ -6,116 +6,9 @@
     <title>My Blog</title>
     <style>
         /* Fonts */
-        @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Be+Vietnam:wght@400;500&display=swap');
-
-        body {
-            font-family: 'Be Vietnam', sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.8;
-        }
-
-        /* Blog Container */
-        .blog-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Blog Header */
-        h1 {
-            font-family: 'Gilda Display', serif;
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            color: #2c3e50;
-        }
-
-        h2 {
-            font-family: 'Gilda Display', serif;
-            font-size: 2rem;
-            color: #34495e;
-            margin-top: 30px;
-        }
-
-        /* Blog Content */
-        .content {
-            font-size: 1.1rem;
-            line-height: 1.8;
-            margin-bottom: 30px;
-            padding-left: 15px;
-            border-left: 4px solid #3498db;
-            background-color: #f9f9f9;
-            padding: 15px;
-            border-radius: 5px;
-        }
-
-        p {
-            margin-bottom: 15px;
-            color: #555;
-        }
-
-        ul {
-            list-style-type: disc;
-            padding-left: 40px;
-            margin: 20px 0;
-        }
-
-        ul li {
-            background-color: #e9ecef;
-            color: #2c3e50;
-            padding: 10px;
-            margin-bottom: 8px;
-            border-radius: 5px;
-        }
-
-        ul li code {
-            font-family: monospace;
-            background-color: #fff;
-            color: #333;
-            padding: 2px 5px;
-            border-radius: 3px;
-            font-size: 0.95rem;
-        }
-
-        /* Accordion Styles */
-        aside {
-            background-color: #3498db;
-            color: #fff;
-            font-family: 'Gilda Display', serif;
-            font-size: 1.5rem;
-            padding: 15px;
-            margin-bottom: 20px;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        aside:hover {
-            background-color: #2980b9;
-        }
-
-        .accordion-content {
-            display: none;
-            margin-bottom: 20px;
-        }
-
-        .accordion-content.active {
-            display: block;
-        }
-
-        /* Footer */
-        footer {
-            text-align: center;
-            margin-top: 50px;
-            font-size: 0.9rem;
-            color: #999;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=RoxboroughCF&family=Montserrat:wght@400;500&family=Sorts+Mill+Goudy&display=swap');
     </style>
+    <link href="css/blog.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="blog-container">
@@ -233,8 +126,8 @@
             </div>
         </div>
 
-        <aside onclick="toggleAccordion('accordion5')">How to a file to gitignore</aside>
-        <div id="accordion5" class="accordion-content">
+        <aside onclick="toggleAccordion('accordion6')">How to add a file to gitignore</aside>
+        <div id="accordion6" class="accordion-content">
             <div class="content">
                 <p>You can make git don't track some files or folders:</p>
                 <ul>
