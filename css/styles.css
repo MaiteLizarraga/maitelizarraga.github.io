@@ -82,6 +82,8 @@ a:hover {
   background-color: #f8dcbf;
   padding: 2%;
   box-sizing: border-box;
+  border-top: 2px solid white;
+  border-top: 2px solid white;
 }
 
 .grid-item img {
