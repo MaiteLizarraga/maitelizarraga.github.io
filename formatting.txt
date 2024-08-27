@@ -1,10 +1,10 @@
-Grey: #f1f1f1
-Blue: #6c8ec1
-Morado: #79629b
-Green: #668050
-Color Carne: #ffd8aa
+colores:
+#001f3d azul oscuro
+#045174 azul más clarito
+#e87a00 naranja chillón
+#f8dcbf naranja clarito, tipo beige
 
-Fonts:
-Gilda Display
-Be Vietnam
-
+fuentes:
+RoxboroughCF
+Montserrat
+Sorts Mill Goudy
