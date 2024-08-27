@@ -5,6 +5,6 @@ colores:
 #f8dcbf naranja clarito, tipo beige
 
 fuentes:
-RoxboroughCF
+RoxboroughCF --> para títulos grandes
 Montserrat
 Sorts Mill Goudy
