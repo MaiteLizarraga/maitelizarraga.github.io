@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'RoxboroughCF';
-  src: url('fonts/roxborough-cf-regular.ttf') format('truetype');
+  src: url('../fonts/roxborough-cf-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
