@@ -91,6 +91,10 @@ a:hover {
   border-left: 3px solid white;
 }
 
+.grid-item:hover {
+  background-color: white;
+}
+
 .grid-item img {
   max-width: 100%;
   height: auto;
