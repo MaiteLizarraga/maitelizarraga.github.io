@@ -51,7 +51,7 @@ h6 {
   font-size: 1rem;
   padding: 20px 50px;
   margin: 0;
-  color: #f8dcbf ;
+  color: #e87a00 ;
 }
 
 p {
@@ -69,7 +69,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #e87a00; /* Naranja chillón */
+  color: #045174; /* Naranja chillón */
 }
 
 /* Data Projects */
