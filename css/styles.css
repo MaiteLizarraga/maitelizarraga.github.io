@@ -1,5 +1,13 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=RoxboroughCF&family=Montserrat:wght@400;500&family=Sorts+Mill+Goudy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Sorts+Mill+Goudy&display=swap');
+
+@font-face {
+  font-family: 'RoxboroughCF';
+  src: url('fonts/RoxboroughCF.woff2') format('woff2'),
+       url('fonts/RoxboroughCF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* General Styling for Categories */
 .category {
@@ -11,6 +19,7 @@
   color: white;
   display: inline-block;
   margin-bottom: 5px;
+  font-family: 'Montserrat';
 }
 
 .cat-color-purple {
@@ -43,6 +52,7 @@ h6 {
   font-size: 1rem;
   padding: 20px 50px;
   margin: 0;
+  color: #f8dcbf ;
 }
 
 p {
@@ -70,7 +80,7 @@ a:hover {
 }
 
 .grid-item {
-  background-color: white;
+  background-color: #f8dcbf;
   padding: 2%;
   box-sizing: border-box;
 }
@@ -83,6 +93,7 @@ a:hover {
 /* Data Projects Specific */
 h5 {
   margin-bottom: 20px;
+  color: #f8dcbf ;
 }
 
 /* Education */
@@ -98,7 +109,7 @@ h5 {
 }
 
 .col-gen {
-  background-color: #f8dcbf; /* Naranja clarito, tipo beige */
+  background-color: #001f3d ; /* Naranja clarito, tipo beige */
   font-family: 'RoxboroughCF', serif;
   font-size: 1rem;
   padding: 50px 20px;

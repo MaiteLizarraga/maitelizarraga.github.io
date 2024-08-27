@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: 'RoxboroughCF';
+    src: url('fonts/RoxboroughCF.woff2') format('woff2'),
+         url('fonts/RoxboroughCF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #f8dcbf; /* Naranja clarito, tipo beige */
