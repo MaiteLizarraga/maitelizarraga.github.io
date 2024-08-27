@@ -1,8 +1,8 @@
 
 @font-face {
     font-family: 'RoxboroughCF';
-    src: url('fonts/RoxboroughCF.woff2') format('woff2'),
-         url('fonts/RoxboroughCF.woff') format('woff');
+    src: url('assets/fonts/RoxboroughCF.woff2') format('woff2'),
+         url('assets/fonts/RoxboroughCF.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
