@@ -9,6 +9,11 @@
 }
 
 /* General Styling for Categories */
+
+.dark-blue {
+  color: #001f3d;
+}
+
 .category {
   background-color: #045174; /* Azul más clarito */
   border-radius: 10px;
@@ -137,7 +142,7 @@ li {
 }
 
 li span {
-  font-family: 'RoxboroughCF', serif;
+  font-family: 'Sorts Mill Goudy', serif;
   font-variant: normal;
   font-size: 0.8rem;
   font-weight: normal;
