@@ -7,3 +7,4 @@ Color Carne: #ffd8aa
 Fonts:
 Gilda Display
 Be Vietnam
+
