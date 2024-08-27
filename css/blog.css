@@ -4,7 +4,7 @@
 @font-face {
     font-family: 'RoxboroughCF';
     src: url('assets/fonts/roxborough-cf-regular.woff2') format('woff2'),
-         url('assets/fonts/roxborough-cf-regular.woff.woff') format('woff');
+         url('assets/fonts/roxborough-cf-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
