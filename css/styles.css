@@ -3,9 +3,7 @@
 
 @font-face {
   font-family: 'RoxboroughCF';
-  src: url('https://MaiteLizarraga.github.io/repository/fonts/roxborough-cf-regular.eot');
-  src: url('https://MaiteLizarraga.github.io/repository/fonts/roxborough-cf-regular.woff2') format('woff2'),
-       url('https://MaiteLizarraga.github.io/repository/fonts/roxborough-cf-regular.woff') format('woff');
+  src: url('fonts/roxborough-cf-regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
