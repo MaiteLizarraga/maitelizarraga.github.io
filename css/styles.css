@@ -138,7 +138,6 @@ ul ul {
   font-size: 1.25rem;
   font-variant: small-caps;
   font-weight: bold;
-  /* padding-bottom: 2rem; */
 }
 
 li {
@@ -154,7 +153,7 @@ li span {
 }
 
 .certifications {
-  padding-bottom: 0;
+  padding-top: 0;
 }
 
 /* Images */
