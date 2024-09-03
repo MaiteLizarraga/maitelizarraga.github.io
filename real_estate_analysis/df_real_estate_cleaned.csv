@@ -1,0 +1,149 @@
+area,contact_is_private_seller,district,dpe,estate_type,ges,is_exclusive,price,rooms,sold,selling_time,old_price,appartment_size,price_decrease_percent,bedrooms,level,balcony,terrace,parking,elevator,box,garden,swimming_pool
+20,0,3,E,Appartment,B,f,103000,2,n,,110000,studio,"6,36",1,3,0,0,0,1,0,0,0
+23,0,1,F,Studio,C,f,120000,1,n,,0,studio,"0,00",0,3,0,0,0,0,0,0,0
+22,0,1,C,Studio,A,f,120000,1,n,,0,studio,"0,00",0,1,0,0,0,1,0,0,0
+31,0,3,F,Appartment,F,f,125000,2,n,,0,studio,"0,00",1,3,0,0,0,0,0,0,0
+30,0,3,E,Appartment,B,f,128000,2,n,,135000,studio,"5,19",1,4,0,0,0,1,0,0,0
+27,0,1,E,Studio,B,t,130000,1,y,2 months,140000,studio,"7,14",0,1,1,1,1,1,0,0,0
+21,0,1,D,Studio,B,t,134000,1,n,,0,studio,"0,00",0,1,0,0,0,0,0,0,0
+28,0,3,C,Appartment,A,t,140000,2,n,,0,studio,"0,00",1,1,0,0,0,0,0,0,0
+33,0,4,C,Appartment,A,f,140000,2,n,,150000,studio,"6,67",1,6,0,0,0,0,0,0,0
+44,0,1,F,Appartment,C,f,142000,3,y,1 month,0,small_1_bed,"0,00",2,5,0,0,0,0,0,0,0
+31,0,4,A,Studio,A,t,144000,1,n,,0,studio,"0,00",0,4,1,0,0,0,0,0,0
+25,0,2,G,Studio,C,f,144450,1,n,,0,studio,"0,00",0,1,1,0,0,0,1,0,0
+28,0,3,C,Studio,A,f,147000,2,n,,152000,studio,"3,29",0,1,0,0,1,0,0,0,0
+24,0,1,D,Studio,D,t,149000,1,n,,147700,studio,"-8,80",0,4,0,1,0,1,0,0,0
+31,1,1,E,Appartment,B,f,149000,3,y,1 month,159000,studio,"6,29",1,2,0,1,0,0,0,1,0
+23,0,1,C,Studio,A,t,150000,1,n,,0,studio,"0,00",0,3,0,1,0,0,0,0,0
+35,0,1,C,Studio,A,f,150000,1,n,,0,studio,"0,00",0,5,0,0,0,1,0,0,0
+37,0,1,C,Appartment,A,f,150000,2,n,,170000,small_1_bed,"11,76",1,5,0,0,0,1,0,0,0
+37,0,3,F,Studio,F,t,152000,1,n,,0,small_1_bed,"0,00",0,4,1,0,0,1,0,0,0
+39,0,4,E,Appartment,B,t,152688,2,y,2 months,161702,small_1_bed,"5,57",1,1,1,0,0,0,0,0,0
+38,0,2,D,Appartment,B,t,156500,2,n,,0,small_1_bed,"0,00",1,3,0,1,1,1,0,1,0
+46,0,2,D,Appartment,B,t,156500,2,n,,0,small_1_bed,"0,00",1,1,1,0,1,0,0,0,0
+39,0,3,D,Studio,B,f,158000,1,n,,0,small_1_bed,"0,00",0,1,1,1,1,0,0,0,0
+20,0,1,F,Studio,C,t,158000,1,n,,0,studio,"0,00",0,1,0,1,1,0,0,0,0
+30,0,1,F,Studio,D,t,159000,1,n,,0,studio,"0,00",0,2,0,0,0,0,1,0,0
+66,0,3,A,Appartment,B,t,160650,3,n,,0,small_2_bed,"0,00",2,2,0,1,0,0,0,1,0
+72,0,4,D,Appartment,A,t,163590,3,y,1 month,0,big_2_bed_or_more,"0,00",2,2,0,1,1,0,0,0,0
+25,0,2,G,Studio,C,f,165000,1,y,1 month,0,studio,"0,00",0,1,1,0,0,0,1,0,0
+70,0,3,G,Appartment,C,f,165000,3,y,1 month,0,big_2_bed_or_more,"0,00",1,5,0,0,0,0,0,0,0
+26,0,1,D,Studio,B,t,168000,1,n,,175000,studio,"4,00",0,1,1,1,0,1,0,0,0
+58,0,3,F,Appartment,F,f,168500,3,y,1 month,0,small_2_bed,"0,00",2,3,0,1,0,0,0,0,0
+40,0,4,F,Appartment,F,t,169000,2,y,1 month,0,small_1_bed,"0,00",1,2,0,1,0,0,1,0,0
+24,0,3,D,Appartment,D,f,171000,2,y,1 month,0,studio,"0,00",1,4,0,0,1,1,0,0,0
+29,0,3,D,Appartment,B,f,171200,2,y,1 month,0,studio,"0,00",1,2,0,1,1,0,0,0,0
+36,0,1,D,Appartment,B,t,173000,2,n,,0,small_1_bed,"0,00",1,2,0,1,0,1,0,0,0
+36,0,2,D,Appartment,B,f,175000,2,n,,0,small_1_bed,"0,00",1,3,0,1,1,0,0,1,1
+31,0,1,C,Studio,C,t,175000,1,n,,0,studio,"0,00",0,3,1,0,0,1,0,0,0
+33,0,2,C,Appartment,C,t,176000,2,n,,0,studio,"0,00",1,0,0,1,1,0,0,0,0
+36,0,1,D,Appartment,B,t,179000,2,y,1 month,184000,small_1_bed,"2,72",1,2,0,0,0,1,0,0,0
+27,0,3,E,Studio,B,f,180000,1,n,,0,studio,"0,00",0,5,0,0,0,0,0,0,0
+54,0,3,E,Appartment,B,t,180000,3,y,2 months,199000,small_2_bed,"9,55",2,1,1,0,0,0,0,0,0
+40,0,3,D,Appartment,B,t,180000,2,n,,0,small_1_bed,"0,00",1,2,0,1,0,1,1,0,0
+27,0,2,E,Appartment,B,f,181800,2,y,1 month,0,studio,"0,00",1,1,0,1,1,0,0,0,1
+35,0,1,F,Appartment,F,f,181900,2,n,,0,studio,"0,00",1,3,0,0,1,0,0,0,0
+50,1,4,E,Studio,E,f,185000,1,n,,0,small_2_bed,"0,00",0,4,0,0,0,0,0,0,0
+35,0,2,D,Studio,D,t,185500,1,n,,0,studio,"0,00",0,2,0,0,1,0,0,0,1
+29,0,2,G,Appartment,C,t,189000,2,n,,0,studio,"0,00",1,1,0,1,1,0,0,0,1
+65,0,3,F,Appartment,C,t,189000,3,n,,0,small_2_bed,"0,00",2,2,0,0,0,0,0,0,0
+37,0,2,D,Appartment,A,f,192500,2,n,,197900,small_1_bed,"27,29",1,2,0,1,1,0,0,0,0
+27,0,1,D,Studio,B,f,192600,1,n,,0,studio,"0,00",0,1,0,1,1,1,0,0,0
+28,0,2,C,Appartment,A,t,194000,2,y,2 weeks,0,studio,"0,00",1,2,0,1,1,0,0,0,0
+46,0,2,C,Appartment,A,t,194000,2,n,,0,small_1_bed,"0,00",1,1,1,0,1,0,0,0,0
+42,0,1,F,Appartment,C,t,194000,2,n,,0,small_1_bed,"0,00",1,1,1,0,0,0,0,0,0
+42,0,3,D,Appartment,A,t,195000,2,n,,0,small_1_bed,"0,00",1,1,0,1,0,1,1,0,0
+44,0,2,D,Appartment,A,t,195000,2,n,,205000,small_1_bed,"4,88",1,1,0,1,1,0,0,0,0
+42,0,4,E,Appartment,B,t,195000,2,n,,225000,small_1_bed,"13,33",1,2,0,1,0,1,1,0,0
+60,0,4,F,Appartment,F,t,198000,2,n,,0,small_2_bed,"0,00",1,4,0,0,0,0,0,0,0
+55,0,3,E,Appartment,B,t,199000,3,n,,0,small_2_bed,"0,00",2,5,0,0,0,0,0,0,0
+51,0,1,E,Triplex,B,t,199000,2,n,,0,small_2_bed,"0,00",1,3,1,1,0,1,1,0,0
+35,0,4,D,Appartment,B,t,199000,2,n,,0,studio,"0,00",1,1,0,1,0,0,1,0,0
+32,0,4,D,Appartment,A,t,200000,2,y,1 month,0,studio,"0,00",1,2,0,1,0,0,0,0,0
+67,0,3,G,Appartment,G,f,201400,3,n,,0,big_2_bed_or_more,"0,00",2,3,0,0,0,0,0,0,0
+40,0,1,C,Appartment,A,f,204256,2,n,,218400,small_1_bed,"6,48",1,2,1,1,1,0,0,0,0
+46,0,2,D,Appartment,D,t,205000,2,y,1 month,0,small_1_bed,"0,00",1,3,1,0,1,0,0,0,0
+40,0,3,C,Appartment,A,f,208500,2,n,,234000,small_1_bed,"10,90",1,2,0,1,1,1,0,0,0
+40,0,4,D,Appartment,B,t,209000,2,y,2 weeks,0,small_1_bed,"0,00",1,2,0,1,0,0,1,0,0
+47,0,1,C,Appartment,A,f,210000,2,n,,0,small_1_bed,"0,00",1,3,0,0,0,1,0,0,0
+77,0,4,F,Appartment,F,f,210000,4,n,,0,big_2_bed_or_more,"0,00",2,4,1,0,0,0,1,0,0
+40,0,4,C,Appartment,C,t,215000,2,n,,0,small_1_bed,"0,00",1,2,0,1,0,1,1,0,0
+33,0,2,C,Duplex,A,t,215000,2,n,,0,studio,"0,00",1,2,0,1,0,1,1,0,0
+33,0,2,C,Appartment,C,t,215500,2,y,1 month,0,studio,"0,00",1,1,0,1,1,1,0,0,0
+44,0,1,D,Studio,B,f,219000,2,n,,0,small_1_bed,"0,00",0,2,0,1,1,0,0,0,0
+79,0,2,F,Appartment,F,f,220000,4,n,,0,big_2_bed_or_more,"0,00",3,4,1,0,0,1,0,0,0
+80,1,3,C,Appartment,A,f,220000,4,y,2 weeks,0,big_2_bed_or_more,"0,00",3,2,0,1,0,1,1,0,0
+30,0,1,D,Studio,D,f,220000,1,y,2 weeks,0,studio,"0,00",0,7,1,0,1,1,0,0,0
+38,0,2,C,Appartment,A,t,221000,2,y,1 month,0,small_1_bed,"0,00",1,1,0,1,0,1,1,0,1
+40,0,1,C,Appartment,A,f,222600,2,n,,0,small_1_bed,"0,00",1,1,0,1,1,1,0,0,0
+38,0,2,C,Appartment,A,f,223000,2,n,,0,small_1_bed,"0,00",1,3,0,1,0,0,1,1,0
+30,0,4,C,Appartment,A,f,223000,2,n,,0,studio,"0,00",1,2,0,1,0,0,0,1,0
+52,1,3,F,Appartment,D,f,223000,2,n,,0,small_2_bed,"0,00",1,1,0,0,0,0,0,0,0
+71,0,2,D,Appartment,D,f,224200,4,y,2 months,283500,big_2_bed_or_more,"2,09",3,3,1,0,0,0,0,0,0
+48,0,3,E,Appartment,B,f,225000,3,n,,0,small_1_bed,"0,00",1,1,0,0,0,0,0,0,0
+57,0,1,D,Appartment,A,t,226000,3,n,,0,small_2_bed,"0,00",2,2,1,0,0,0,0,0,0
+27,0,1,D,Appartment,D,t,228400,2,n,,0,studio,"0,00",1,2,0,1,0,1,0,0,0
+57,0,1,C,Appartment,C,f,229000,2,n,,0,small_2_bed,"0,00",1,1,0,1,0,0,0,0,0
+43,0,1,C,Appartment,C,f,229000,2,n,,0,small_1_bed,"0,00",1,4,1,0,0,0,0,0,0
+43,0,1,E,Appartment,B,t,229500,3,n,,0,small_1_bed,"0,00",2,1,1,1,1,0,0,0,0
+60,0,3,A,Appartment,A,f,230000,3,n,,0,small_2_bed,"0,00",2,2,0,1,0,1,1,0,0
+44,0,2,A,New Appartment,A,f,230000,2,y,1 month,0,small_1_bed,"0,00",1,0,0,1,0,0,0,0,0
+53,0,3,A,Appartment,A,f,230000,2,y,1 month,0,small_2_bed,"0,00",1,1,0,0,0,0,1,0,0
+36,0,2,D,Appartment,B,t,230629,2,y,1 month,0,small_1_bed,"0,00",1,2,1,0,1,0,0,0,0
+71,0,1,D,Appartment,D,t,231000,3,n,,0,big_2_bed_or_more,"0,00",2,1,1,0,0,0,0,0,0
+50,0,2,D,Appartment,D,t,235000,2,y,1 month,0,small_2_bed,"0,00",1,1,0,0,1,0,0,0,0
+76,0,4,D,Appartment,E,t,235000,4,n,,248000,big_2_bed_or_more,"5,24",3,1,1,1,0,1,0,0,0
+79,0,1,G,Appartment,F,t,239000,4,y,1 month,0,big_2_bed_or_more,"0,00",2,2,0,0,0,0,0,0,0
+39,0,4,E,Appartment,B,f,239200,2,n,,0,small_1_bed,"0,00",1,2,1,0,1,0,0,0,0
+35,0,1,D,Appartment,B,f,244000,2,n,,0,studio,"0,00",1,2,0,1,1,0,0,0,0
+41,0,1,F,Appartment,F,f,246100,2,n,,0,small_1_bed,"0,00",1,2,1,0,0,1,0,0,0
+29,0,4,C,Appartment,D,t,246500,2,n,,0,studio,"0,00",1,4,0,0,0,1,1,0,0
+76,0,4,F,Appartment,F,f,249000,4,y,1 month,0,big_2_bed_or_more,"0,00",2,4,1,0,0,0,1,0,0
+75,0,3,C,Appartment,A,f,249000,3,y,2 weeks,0,big_2_bed_or_more,"0,00",2,2,1,0,0,0,0,0,0
+35,0,1,E,Studio,E,f,249900,1,n,,0,studio,"0,00",0,3,1,0,0,1,0,0,0
+44,0,2,A,New Appartment,A,f,250000,2,n,,0,small_1_bed,"0,00",0,0,0,1,0,0,1,0,0
+35,0,1,E,Appartment,B,f,254000,2,n,,0,studio,"0,00",1,1,0,1,0,0,1,0,0
+83,0,3,F,Appartment,F,t,254500,4,y,1 month,0,big_2_bed_or_more,"0,00",3,4,0,1,0,0,0,0,0
+80,0,4,F,Appartment,C,f,256800,4,n,,0,big_2_bed_or_more,"0,00",3,4,0,0,0,1,0,0,0
+77,0,4,E,Appartment,C,t,257000,4,n,,0,big_2_bed_or_more,"0,00",3,3,1,1,1,0,0,0,0
+43,0,3,A,New Appartment,A,f,258000,2,n,,0,small_1_bed,"0,00",1,0,0,1,0,0,1,0,0
+88,0,1,G,Appartment,C,f,258800,4,n,,0,big_2_bed_or_more,"0,00",3,2,0,1,0,0,1,0,0
+72,0,3,C,Appartment,D,f,262500,3,n,,0,big_2_bed_or_more,"0,00",2,1,0,1,1,0,0,0,0
+40,0,1,F,Appartment,F,t,266000,2,n,,0,small_1_bed,"0,00",1,4,0,1,0,1,0,0,0
+50,0,2,C,Appartment,A,t,267925,3,n,,0,small_2_bed,"0,00",2,5,0,1,1,0,0,0,0
+43,0,2,E,Appartment,B,t,268000,3,n,,0,small_1_bed,"0,00",2,1,0,1,1,0,0,0,1
+84,0,3,C,Appartment,A,t,268000,3,y,2 weeks,0,big_2_bed_or_more,"0,00",2,2,1,0,1,0,0,0,0
+46,0,2,A,New Appartment,A,f,269000,2,n,,259000,small_1_bed,"-3,86",0,0,0,0,0,0,1,1,0
+41,0,4,C,Appartment,A,f,270000,2,n,,0,small_1_bed,"0,00",1,3,0,1,1,1,1,0,0
+52,0,1,C,Appartment,C,t,275000,3,n,,0,small_2_bed,"0,00",2,2,1,0,0,0,0,0,0
+43,0,1,E,Appartment,B,t,275600,2,n,,0,small_1_bed,"0,00",1,4,1,0,1,1,0,0,0
+52,1,2,C,Appartment,D,f,275600,3,n,,0,small_2_bed,"0,00",2,2,1,1,1,0,0,0,0
+27,0,1,D,Studio,B,f,276600,1,y,1 week,0,studio,"0,00",0,2,0,1,1,0,0,0,0
+68,0,1,D,Appartment,B,f,278000,3,n,,296000,big_2_bed_or_more,"6,08",2,2,1,1,0,1,0,0,0
+71,0,1,D,Appartment,E,f,278200,3,n,,0,big_2_bed_or_more,"0,00",2,2,1,0,1,0,0,0,0
+66,0,1,D,Appartment,B,f,279000,4,n,,0,small_2_bed,"0,00",3,0,0,0,0,1,0,1,0
+83,0,1,D,Appartment,D,t,279000,3,n,,0,big_2_bed_or_more,"0,00",2,1,0,0,0,0,0,0,0
+30,0,1,F,Studio,B,f,279033,1,y,1 month,0,studio,"0,00",0,2,0,1,0,1,0,0,0
+25,0,1,E,Studio,C,f,280000,1,n,,0,studio,"0,00",0,0,0,1,1,0,0,0,0
+71,0,1,E,Appartment,C,f,280000,4,y,1 month,0,big_2_bed_or_more,"0,00",3,1,0,1,0,0,0,0,0
+47,0,2,C,Appartment,A,f,282700,3,n,,293193,small_1_bed,"3,58",2,2,0,0,1,0,1,0,0
+56,0,2,C,Appartment,A,f,282700,3,n,,0,small_2_bed,"0,00",2,2,1,1,1,0,0,0,0
+55,0,1,E,Appartment,F,f,284850,3,n,,0,small_2_bed,"0,00",2,0,0,1,0,0,0,1,0
+42,1,1,G,Appartment,G,f,285000,2,n,,277000,small_1_bed,"-2,89",1,4,1,0,0,1,0,0,0
+58,0,3,A,New Appartment,A,f,285000,3,n,,0,small_2_bed,"0,00",0,0,0,1,0,0,0,1,0
+86,0,3,A,Appartment,A,f,285000,5,n,,0,big_2_bed_or_more,"0,00",3,2,0,1,0,1,0,0,0
+44,0,1,A,Appartment,A,t,285000,2,n,,293300,small_1_bed,"28,30",1,4,1,0,0,1,0,0,0
+41,0,1,F,Appartment,F,f,286000,2,n,,0,small_1_bed,"0,00",1,3,1,1,0,1,0,0,0
+34,0,1,C,Appartment,C,t,287000,2,n,,0,studio,"0,00",1,2,0,1,1,1,0,0,0
+25,0,1,E,Studio,C,f,288000,1,n,,0,studio,"0,00",0,2,0,1,1,0,0,0,0
+38,0,1,C,Appartment,A,t,289000,2,y,2 months,0,small_1_bed,"0,00",1,2,0,0,1,1,0,0,0
+28,0,1,D,Studio,D,f,290000,1,y,1 month,0,studio,"0,00",0,3,0,1,0,1,0,0,1
+60,0,3,E,Appartment,F,f,294250,3,n,,0,small_2_bed,"0,00",2,1,1,0,0,0,1,0,0
+59,0,3,D,New Appartment,A,f,295000,3,n,,0,small_2_bed,"0,00",2,0,0,1,0,0,0,1,0
+62,0,4,D,Appartment,A,t,295000,3,n,,0,small_2_bed,"0,00",2,3,0,1,1,0,0,0,0
+55,1,1,D,Studio,A,f,295000,1,y,1 month,0,small_2_bed,"0,00",0,0,1,0,0,0,0,0,0
+68,0,3,D,Appartment,D,t,295400,4,n,,300000,big_2_bed_or_more,"15,33",2,1,1,0,1,0,1,0,0
+69,0,4,E,Appartment,E,f,299000,4,y,2 weeks,0,big_2_bed_or_more,"0,00",3,4,0,1,1,0,0,0,0
+57,0,4,C,Appartment,D,f,299000,2,n,,0,small_2_bed,"0,00",1,3,0,1,1,0,0,0,0
+102,0,4,G,Appartment,D,f,299900,4,n,,0,big_2_bed_or_more,"0,00",3,4,1,1,1,1,0,0,0
+36,0,1,D,Appartment,D,t,300000,2,n,,0,small_1_bed,"0,00",1,4,1,1,0,1,0,0,0
