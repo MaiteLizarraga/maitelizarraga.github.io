@@ -134,7 +134,10 @@
                     <li>Step 1: Open the .gitignore file and add the folder or the file.</li>
                     <li>If it's a folder: /folder_name/</li>
                     <li>If it's a file: filename.txt</li>
-                    <li><code>git add .gitignore
+                    <li>Step 2: Stop the tracking by Git
+                        <code>git rm -r --cached my-directory/</code>
+                    </li>
+                    <li>step 3:<code>git add .gitignore
                         git commit -m "Update .gitignore"
                         git push</code>.</li>
                 </ul>
