@@ -69,22 +69,26 @@
             </div>
         </div>
 
-        <aside onclick="toggleAccordion('accordion3')">How to add a language with "linguist" to Github</aside>
+        <aside onclick="toggleAccordion('accordion3')">What are Dangling Commits and Trees?</aside>
         <div id="accordion3" class="accordion-content">
             <div class="content">
-                <p>Adding programming languages that are not automatically detected by Github can help you boost your stats.</p>
+                <ol>
+                    <li>Dangling Commits: These are commits that are not reachable from any branch or tag. They may be remnants of previous changes or commits that were removed from the active branches.</li>
+                    <li>Dangling Trees: These are trees (representing file states) that are not referenced by any commit. They often accompany dangling commits.</li>
+                </ol>
+                <p>Dangling objects are usually harmless and often occur when you rebase or amend commits, force-push changes, delete branches without merging them.</p>
                 <ul>
-                    <li>Step 1: <code>cd</code> to the repo you want to add a language to</li>
-                    <li>Step 2: <code>touch .gitattributes</code></li>
-                    <li>Step 3: <code>nano .gitattributes</code></li>
-                    <li>Step 4: Inside the nano text editor, add:
-                        <code>*.sql linguist-detectable=true</code><br>
-                        <code>*.sql linguist-language=SQL</code>
+                    <li>Step 1: View dangling commits:
+                        <code>git show dangling-commit-hash</code>
                     </li>
-                    <li>Step 5: <code>ctrl + O</code> (save), <code>enter</code> (confirm), <code>ctrl + X</code> (exit)</li>
-                    <li>Step 6: <code>git add .</code></li>
-                    <li>Step 7: <code>git commit -m "added SQL language to linguist"</code></li>
-                    <li>Step 8: <code>git push origin main</code></li>
+                    <li>Step 2: Option 1: Restore dangling commits
+                        <code>git checkout -b new-branch-name dangling-commit-hash</code>
+                    </li>
+                    <li>Step 3: Option 2: Clean-up dangling objects:
+                        <code>git gc --prune=now</code>
+                    </li>
+                <p>Dangling commits and trees are not harmful unless they are consuming significant disk space or are part of lost work.
+                Git will automatically clean them up over time with its garbage collection (git gc).</p>
                 </ul>
             </div>
         </div>
