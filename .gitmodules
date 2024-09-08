@@ -20,3 +20,6 @@
 	path = calculadora_hipoteca
 	url = https://github.com/MaiteLizarraga/vba_excel_calculadora_hipoteca.git
 
+[submodule "real_estate_analysis"]
+	path = real_estate_analysis
+	url = https://github.com/MaiteLizarraga/real_estate_analysis.git
