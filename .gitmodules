@@ -17,6 +17,6 @@
 	path = r_markov_chains
 	url = https://github.com/MaiteLizarraga/r_markov_chains.git
 [submodule "calculadora_hipoteca"]
-	path = vba_excel_calculadora_hipoteca
+	path = calculadora_hipoteca
 	url = https://github.com/MaiteLizarraga/vba_excel_calculadora_hipoteca.git
 
