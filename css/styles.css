@@ -182,6 +182,7 @@ img {
   display: block; /* Ensure image is displayed as block */
   width: 100%; /* Make sure image scales within container */
   height: auto; /* Maintain aspect ratio */
+  margin-top: 10px;
 }
 
 .hover-text {
