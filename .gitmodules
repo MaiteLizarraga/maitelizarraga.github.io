@@ -23,3 +23,6 @@
 [submodule "real_estate_analysis"]
 	path = real_estate_analysis
 	url = https://github.com/MaiteLizarraga/real_estate_analysis.git
+[submodule "real_estate_uni_bivariable"]
+	path = real_estate_uni_bivariable
+	url = https://github.com/MaiteLizarraga/real_estate_uni_bivariable.git
