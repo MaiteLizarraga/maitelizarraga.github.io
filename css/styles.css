@@ -170,6 +170,7 @@ img {
   display: block; /* Ensure it’s block-level */
   text-decoration: none; /* Remove underline from links */
   margin-top: 10px;
+  margin-bottom: 10px !important;
   overflow: auto;
 }
 
