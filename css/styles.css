@@ -113,10 +113,10 @@ h5 {
   padding: 20px;
 }
 
-.col-6:nth-child(1),
+/* .col-6:nth-child(1),
 .col-6:nth-child(3) {
-  background-color: #f8dcbf; /* Naranja clarito, tipo beige */
-}
+  background-color: #f8dcbf; 
+} */
 
 .col-gen {
   /* background-color: #001f3d; */
@@ -206,4 +206,8 @@ img {
 
 .project-link:hover img {
   opacity: 0.3; /* Optionally reduce image opacity on hover */
+}
+
+.line {
+  border-top: 1px solid #001f3d;
 }
