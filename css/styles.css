@@ -141,7 +141,7 @@ ul ul {
 }
 
 li {
-  padding-top: 2rem;
+  padding-top: 1rem;
   line-height: 1;
 }
 
@@ -210,4 +210,5 @@ img {
 
 .line {
   border-top: 1px solid #001f3d;
+  margin-top: 20px;
 }
