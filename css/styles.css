@@ -10,17 +10,23 @@
 
 /* Loader CSS */
 
+/* Full-screen overlay for the loader */
 .gen_loader {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
+  width: 100vw; /* Full screen width */
+  height: 100vh; /* Full screen height */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  z-index: 9999; /* Make sure it stays on top */
 }
 
+/* Spinning loader styles */
 .loader {
   border: 16px solid #f8dcbf;
   border-radius: 50%;
   background-color: #e67a00;
-  opacity: 20%;
+  opacity: 0.8; /* Corrected opacity */
   border-top: 16px solid #045174;
   width: 120px;
   height: 120px;
@@ -29,18 +35,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9999;
 }
 
-/* Loader animation */
+/* Loader spinning animation */
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
-
-/* Hide the loader after the page is fully loaded */
-body.loaded #loader {
-  display: none;
 }
 
 /* General Styling for Categories */
