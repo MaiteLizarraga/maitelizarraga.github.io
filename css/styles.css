@@ -28,12 +28,12 @@
   background-color: #e67a00;
   opacity: 0.8; /* Corrected opacity */
   border-top: 16px solid #045174;
-  width: 120px;
-  height: 120px;
+  width: 5rem;
+  height: 5rem;
   animation: spin 2s linear infinite;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: calc(50% - 2.5rem);
   transform: translate(-50%, -50%);
 }
 

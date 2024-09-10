@@ -1,7 +1,11 @@
 window.addEventListener('load', function () {
-    // Add the loaded class to the body to hide the loader
-    document.body.classList.add('loaded');
-});
+    // Hide the loader after the page fully loads
+    const loaderElement = document.getElementById('gen_loader');
+    if (loaderElement) {
+      loaderElement.style.display = 'none';  // Hides the loader
+    }
+  });
+  
 
 // $('.grid').masonry({
 // // options
