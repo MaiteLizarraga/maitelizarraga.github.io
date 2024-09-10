@@ -12,7 +12,8 @@
 .loader {
   border: 16px solid #f8dcbf;
   border-radius: 50%;
-  background-color: hsl(32, 100%, 45%);
+  background-color: #e67a00;
+  opacity: 20%;
   border-top: 16px solid #045174;
   width: 120px;
   height: 120px;
