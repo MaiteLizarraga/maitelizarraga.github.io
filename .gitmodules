@@ -19,10 +19,12 @@
 [submodule "calculadora_hipoteca"]
 	path = calculadora_hipoteca
 	url = https://github.com/MaiteLizarraga/vba_excel_calculadora_hipoteca.git
-
 [submodule "real_estate_analysis"]
 	path = real_estate_analysis
 	url = https://github.com/MaiteLizarraga/real_estate_analysis.git
 [submodule "real_estate_uni_bivariable"]
 	path = real_estate_uni_bivariable
 	url = https://github.com/MaiteLizarraga/real_estate_uni_bivariable.git
+[submodule "image_gen_diffusers"]
+	path = image_gen_diffusers
+	url = https://github.com/MaiteLizarraga/image_gen_diffusers.git
