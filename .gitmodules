@@ -28,6 +28,3 @@
 [submodule "image_gen_diffusers"]
 	path = image_gen_diffusers
 	url = https://github.com/MaiteLizarraga/image_gen_diffusers.git
-[submodule "real_estate_analysis_pt2"]
-	path = real_estate_analysis_pt2
-	url = https://github.com/MaiteLizarraga/real_estate_analysis_pt2.git
