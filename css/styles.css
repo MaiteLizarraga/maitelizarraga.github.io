@@ -223,18 +223,18 @@ img {
 }
 
 .hover-text {
-  display: none; /* Hide text by default */
-  position: absolute; /* Position absolutely within the container */
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Center precisely */
-  background-color: rgba(0, 0, 0, 0.8); /* Dark background with opacity */
-  color: white; /* White text color */
-  padding: 10px; /* Padding around the text */
-  border-radius: 5px; /* Rounded corners */
-  text-align: center; /* Center text */
-  font-size: 0.7rem; /* Smaller font size */
-  z-index: 10; /* Ensure it's above the image */
+  display: none; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #045174cc;
+  color: white; 
+  padding: 10px; 
+  border-radius: 5px;
+  text-align: center; 
+  font-size: 0.7rem; 
+  z-index: 10; 
 }
 
 .project-link:hover .hover-text {
