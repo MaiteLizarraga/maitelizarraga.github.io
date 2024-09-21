@@ -4,71 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <style>
         /* Fonts */
         @import url('https://fonts.googleapis.com/css2?family=RoxboroughCF&family=Montserrat:wght@400;500&family=Sorts+Mill+Goudy&display=swap');
+        
+        /* Custom styles for the blog container */
+        .blog-container {
+            margin-top: 20px;
+        }
+
+        .accordion-content {
+            display: none;
+        }
+
+        .accordion-content.active {
+            display: block;
+        }
     </style>
+
     <link href="css/blog.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="blog-container">
-        <h1>My Blog</h1>
+    <!-- Bootstrap container for responsiveness -->
+    <div class="container blog-container">
+        <h1 class="text-center mb-4">My Blog</h1>
 
-        <aside onclick="toggleAccordion('accordion1')">How to create a new empty project in Github</aside>
-        <div id="accordion1" class="accordion-content">
-            <div class="content">
-                <p>Create a Repo in your Github space. Add a Readme and a License (the MIT License is what I like to use).</p>
-                <p>At the same time, create a new local directory (folder) in your computer, wherever you want.</p>
-                <ul>
-                    <li>Step 1: In Bash, navigate to you newly created folder with the cd command</li>
-                    <li>Step 2: Initialize Git in this new project folder
-                        <code>git init</code>
-                    </li>
-                    <li>Step 3: Add your remote pointer for this folder
-                        <code>git remote add origin https://github.com/your_github_page/your_new_repo_name</code>
-                    </li>
-                    <li>Step 4: Check that the pointer is ok by doing
-                        <code>git remote -v</code>
-                    </li>
-                    <li>Step 5: If the pointer is ok, fetch the changes from the remote (the license and the readme files)
-                        <code>git fetch origin</code>
-                    </li>
-                    <li>Step 6: Merge your local changes (empty directory) with the remote fetched files
-                        <code>git merge origin/main</code>
-                    </li>
-                    <li>Step 7: If you already added some files to your local directory you may need to force the merge
-                        <code>git merge origin/main --allow-unrelated-histories</code>
-                    </li>
-                    <p>You're ready to go now!</p>
-                </ul>
+        <!-- First Accordion -->
+        <div class="accordion-item mb-3">
+            <aside class="accordion-header" onclick="toggleAccordion('accordion1')">How to create a new empty project in Github</aside>
+            <div id="accordion1" class="accordion-content">
+                <div class="content">
+                    <p>Create a Repo in your Github space. Add a Readme and a License (the MIT License is what I like to use).</p>
+                    <p>At the same time, create a new local directory (folder) in your computer, wherever you want.</p>
+                    <ul>
+                        <li>Step 1: In Bash, navigate to your newly created folder with the cd command</li>
+                        <li>Step 2: Initialize Git in this new project folder
+                            <code>git init</code>
+                        </li>
+                        <li>Step 3: Add your remote pointer for this folder
+                            <code>git remote add origin https://github.com/your_github_page/your_new_repo_name</code>
+                        </li>
+                        <li>Step 4: Check that the pointer is ok by doing
+                            <code>git remote -v</code>
+                        </li>
+                        <li>Step 5: If the pointer is ok, fetch the changes from the remote (the license and the readme files)
+                            <code>git fetch origin</code>
+                        </li>
+                        <li>Step 6: Merge your local changes (empty directory) with the remote fetched files
+                            <code>git merge origin/main</code>
+                        </li>
+                        <li>Step 7: If you already added some files to your local directory you may need to force the merge
+                            <code>git merge origin/main --allow-unrelated-histories</code>
+                        </li>
+                        <p>You're ready to go now!</p>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <aside onclick="toggleAccordion('accordion1')">How to set up a new Github Repository from Google Colab</aside>
-        <div id="accordion1" class="accordion-content">
-            <div class="content">
-                <p>Create a Repo in your Github space. Create a Token and save it somewhere so that it doesn't get lost as you will need it later.</p>
-                <ul>
-                    <li>Step 1: <code>from google.colab import drive</code><br><code>drive.mount('/content/drive')</code></li>
-                    <li>Step 2: <code>!apt-get install git</code></li>
-                    <li>Step 3: <code>%cd /content/drive/MyDrive/Github/</code></li>
-                    <li>Step 4: <code>!git init mysql_sales_repo</code></li>
-                    <li>Step 5: <code>%cd mysql_sales_repo</code></li>
-                    <li>Step 6: <code>!git status</code></li>
-                    <li>Step 7: <code>!git config --global user.email "maite.lizarraga@gmail.com"</code><br>
-                        <code>!git config --global user.name "MaiteLizarraga"</code></li>
-                    <li>Step 8: <code>!git remote add origin https://github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
-                    <li>Step 9: <code>!git remote -v</code></li>
-                    <li>Step 10: <code>!git branch -M main</code></li>
-                    <li>Step 11: <code>!git remote set-url origin https://MaiteLizarraga:mysql_exam@github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
-                    <li>Step 12: <code>!git fetch origin</code></li>
-                    <li>Step 13: <code>!git pull --rebase origin main</code></li>
-                </ul>
+        <!-- Second Accordion -->
+        <div class="accordion-item mb-3">
+            <aside class="accordion-header" onclick="toggleAccordion('accordion2')">How to set up a new Github Repository from Google Colab</aside>
+            <div id="accordion2" class="accordion-content">
+                <div class="content">
+                    <p>Create a Repo in your Github space. Create a Token and save it somewhere so that it doesn't get lost as you will need it later.</p>
+                    <ul>
+                        <li>Step 1: <code>from google.colab import drive</code><br><code>drive.mount('/content/drive')</code></li>
+                        <li>Step 2: <code>!apt-get install git</code></li>
+                        <li>Step 3: <code>%cd /content/drive/MyDrive/Github/</code></li>
+                        <li>Step 4: <code>!git init mysql_sales_repo</code></li>
+                        <li>Step 5: <code>%cd mysql_sales_repo</code></li>
+                        <li>Step 6: <code>!git status</code></li>
+                        <li>Step 7: <code>!git config --global user.email "maite.lizarraga@gmail.com"</code><br>
+                            <code>!git config --global user.name "MaiteLizarraga"</code></li>
+                        <li>Step 8: <code>!git remote add origin https://github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
+                        <li>Step 9: <code>!git remote -v</code></li>
+                        <li>Step 10: <code>!git branch -M main</code></li>
+                        <li>Step 11: <code>!git remote set-url origin https://MaiteLizarraga:mysql_exam@github.com/MaiteLizarraga/mysql_sales_repo.git</code></li>
+                        <li>Step 12: <code>!git fetch origin</code></li>
+                        <li>Step 13: <code>!git pull --rebase origin main</code></li>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <aside onclick="toggleAccordion('accordion2')">How to create a submodule in Github</aside>
-        <div id="accordion2" class="accordion-content">
+        <aside onclick="toggleAccordion('accordion3')">How to create a submodule in Github</aside>
+        <div id="accordion3" class="accordion-content">
             <div class="content">
                 <p>Create a Repo in your Github space with Readme.md file.</p>
                 <p>Don't forget to pull the readme file into your local folder. To do so:</p>
@@ -99,8 +124,8 @@
             </div>
         </div>
 
-        <aside onclick="toggleAccordion('accordion3')">What are Dangling Commits and Trees?</aside>
-        <div id="accordion3" class="accordion-content">
+        <aside onclick="toggleAccordion('accordion4')">What are Dangling Commits and Trees?</aside>
+        <div id="accordion4" class="accordion-content">
             <div class="content">
                 <ol>
                     <li>Dangling Commits: These are commits that are not reachable from any branch or tag. They may be remnants of previous changes or commits that were removed from the active branches.</li>
@@ -123,8 +148,8 @@
             </div>
         </div>
 
-        <aside onclick="toggleAccordion('accordion4')">How to add a language with "linguist" to Github</aside>
-        <div id="accordion4" class="accordion-content">
+        <aside onclick="toggleAccordion('accordion5')">How to add a language with "linguist" to Github</aside>
+        <div id="accordion5" class="accordion-content">
             <div class="content">
                 <p>Adding programming languages that are not automatically detected by Github can help you boost your stats.</p>
                 <ul>
@@ -148,8 +173,8 @@
             </div>
         </div>
 
-        <aside onclick="toggleAccordion('accordion5')">How to handle a Push error in Github</aside>
-        <div id="accordion5" class="accordion-content">
+        <aside onclick="toggleAccordion('accordion6')">How to handle a Push error in Github</aside>
+        <div id="accordion6" class="accordion-content">
             <div class="content">
                 <p>If you're getting an error when trying to push your local changes into a remote repository in Github as in the image below:</p>
                 <img src="https://raw.githubusercontent.com/MaiteLizarraga/maitelizarraga.github.io/main/img/pushing_error.png" alt="" style="width: 100%;">
@@ -160,8 +185,8 @@
             </div>
         </div>
 
-        <aside onclick="toggleAccordion('accordion6')">How to add a file to gitignore</aside>
-        <div id="accordion6" class="accordion-content">
+        <aside onclick="toggleAccordion('accordion7')">How to add a file to gitignore</aside>
+        <div id="accordion7" class="accordion-content">
             <div class="content">
                 <p>You can make git don't track some files or folders:</p>
                 <ul>
@@ -182,11 +207,15 @@
                 </ul>
             </div>
         </div>
+
     </div>
 
-    <footer>
+    <footer class="text-center py-3">
         &copy; 2024 My Blog - All rights reserved.
     </footer>
+
+    <!-- Bootstrap JS (Optional for Bootstrap functionality, such as toggling) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         function toggleAccordion(id) {
