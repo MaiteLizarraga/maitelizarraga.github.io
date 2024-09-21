@@ -31,3 +31,6 @@
 [submodule "real_estate_analysis_pt2"]
 	path = real_estate_analysis_pt2
 	url = https://github.com/MaiteLizarraga/real_estate_analysis_pt2.git
+[submodule "nlp_sentiment_analysis_breaking_bad"]
+	path = nlp_sentiment_analysis_breaking_bad
+	url = https://github.com/MaiteLizarraga/nlp_sentiment_analysis_breaking_bad.git
