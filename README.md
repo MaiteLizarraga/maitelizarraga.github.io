@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # maitelizarraga.github.io
 
 <h1>👋 - Hi visitor! Welcome</h1>
@@ -8,7 +7,3 @@
 <p>📱 Feel free to contact me: +34 623 10 10 73, +33 768 40 01 15, maite.lizarraga@gmail.com, https://www.linkedin.com/in/maite-lizarraga-tellez/
 
 ![My Image](img/banner.png)
-
-=======
-# nlp_sentiment_analysis_breaking_bad
->>>>>>> origin/main
