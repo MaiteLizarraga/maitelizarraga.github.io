@@ -85,6 +85,10 @@ header.text-center {
 }
 
 /* Contact Information */
+.contacto{
+  width: auto;
+}
+
 h6 {
   float: left;
   font-family: 'RoxboroughCF', serif;
