@@ -117,6 +117,8 @@ a:hover {
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .grid-item {
@@ -139,7 +141,7 @@ a:hover {
 
 /* Data Projects Specific */
 h5 {
-  margin-bottom: 20px;
+  margin: 20px 0;
   color: #001f3d ;
   font-family: 'RoxboroughCF', serif;
 }
