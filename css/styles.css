@@ -269,6 +269,8 @@ img {
 
   .contacto{
     width: 100%;
+    display: block;
+    margin: 0 auto;
   }
 
   h6, p {
