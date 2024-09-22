@@ -270,6 +270,10 @@ img {
   h6, p {
     padding: 5px 10px;
   }
+
+  h6 {
+    padding: 20px 10px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
