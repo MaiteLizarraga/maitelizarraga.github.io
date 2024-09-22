@@ -90,12 +90,13 @@ header.text-center {
 }
 
 h6 {
-  float: left;
+  /* float: left; */
   font-family: 'RoxboroughCF', serif;
   font-size: 1rem;
   padding: 20px 50px;
   margin: 0;
   color: #e87a00 ;
+  width: auto !important;
 }
 
 p {
@@ -269,8 +270,6 @@ img {
 
   .contacto{
     width: 100%;
-    display: block;
-    margin: 0 auto;
   }
 
   h6, p {
