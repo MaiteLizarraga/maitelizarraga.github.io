@@ -257,24 +257,24 @@ img {
 /* Custom media queries for Masonry grid */
 @media (max-width: 576px) {
   .grid-item {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 45%;
+    max-width: 45%;
   }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
   .grid-item {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 45%;
+    max-width: 45%;
   }
 }
 
-/* @media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .grid-item {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
+    flex: 0 0 32%;
+    max-width: 32%;
   }
-} */
+}
 
 @media (min-width: 992px) {
   .grid-item {
