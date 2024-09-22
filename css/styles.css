@@ -249,3 +249,39 @@ img {
   border-top: 1px solid #001f3d;
   margin-top: 20px;
 }
+
+
+/* Media Queries */
+
+/* Custom media queries for Masonry grid */
+@media (max-width: 576px) {
+  .grid-item {
+    /* Full width for extra small screens */
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .grid-item {
+    /* Two columns for small screens */
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .grid-item {
+    /* Three columns for medium screens */
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid-item {
+    /* Four columns for large screens */
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
