@@ -236,6 +236,7 @@ img {
   position: absolute; 
   top: 30%; 
   left: 30%; 
+  right: -30%; 
   transform: translate(-30%, -30%); 
   background-color: #045174cc;
   color: white; 
