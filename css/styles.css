@@ -234,9 +234,9 @@ img {
 .hover-text {
   display: none; 
   position: absolute; 
-  top: 40%; 
-  left: 40%; 
-  transform: translate(-40%, -40%); 
+  top: 30%; 
+  left: 30%; 
+  transform: translate(-30%, -30%); 
   background-color: #045174cc;
   color: white; 
   padding: 10px; 
