@@ -87,6 +87,7 @@ header.text-center {
 /* Contact Information */
 .contacto{
   width: auto;
+  margin-top: 3px;
 }
 
 h6 {
