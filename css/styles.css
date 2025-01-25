@@ -266,6 +266,10 @@ img {
   color: white;
 }
 
+.cards h2 {
+  color: #001f3d;
+}
+
 .cards li {
   font-variant: normal;
   font-family: 'RoxboroughCF';
