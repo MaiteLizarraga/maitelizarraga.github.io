@@ -141,7 +141,7 @@ a:hover {
 }
 
 .grid-item img {
-  max-width: 60%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -205,7 +205,7 @@ li span {
 /* Images */
 img {
   max-width: 50%;
-  height: auto;
+  /* height: auto; */
   display: block;
   margin: 0 auto;
 }
