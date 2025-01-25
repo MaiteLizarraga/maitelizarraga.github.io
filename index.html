@@ -293,60 +293,45 @@
           </ul>
         </div>
         <div class="col-12 col-md-6">
-          <h5 class="dark-blue">Languages</h5>
-          <img src="img/languages.png" alt="spoken languages Maite Lizarraga">
-        </div>
-      </div>
-
-      import React from "react";
-
-      export default function LanguageSkills() {
-        return (
-          <div className="min-h-screen flex items-center justify-center bg-gray-50 p-6">
-            <div className="grid grid-cols-2 gap-6 max-w-4xl">
-              {/* English */}
-              <div className="rounded-2xl shadow-lg bg-orange-500 p-6 text-white">
-                <h2 className="text-2xl font-bold">ENGLISH</h2>
-                <ul className="mt-4 text-base">
+          <!-- English -->
+          <div class="card orange">
+              <h2>ENGLISH</h2>
+              <ul>
                   <li>• Bilingual</li>
-                  <li>• I’ve studied English since I was little.</li>
                   <li>• Obtained the CAE while studying in ISSA.</li>
                   <li>• Studied in the USA and hold an American degree.</li>
-                </ul>
-              </div>
-      
-              {/* Français */}
-              <div className="rounded-2xl shadow-lg bg-blue-800 p-6 text-white">
-                <h2 className="text-2xl font-bold">FRANÇAIS</h2>
-                <ul className="mt-4 text-base">
+              </ul>
+          </div>
+  
+          <!-- Français -->
+          <div class="card blue">
+              <h2>FRANÇAIS</h2>
+              <ul>
                   <li>• Bilingual</li>
                   <li>• Lived and worked in Paris, France, for 5 years.</li>
                   <li>• Previously obtained the DELF B2.</li>
-                </ul>
-              </div>
-      
-              {/* Español/Euskera */}
-              <div className="rounded-2xl shadow-lg bg-orange-300 p-6 text-gray-900">
-                <h2 className="text-2xl font-bold">ESPAÑOL / EUSKERA</h2>
-                <ul className="mt-4 text-base">
-                  <li>• Native</li>
-                </ul>
-              </div>
-      
-              {/* Deutsch */}
-              <div className="rounded-2xl shadow-lg bg-blue-500 p-6 text-white">
-                <h2 className="text-2xl font-bold">DEUTSCH</h2>
-                <ul className="mt-4 text-base">
+              </ul>
+          </div>
+  
+          <!-- Deutsch -->
+          <div class="card light-blue">
+              <h2>DEUTSCH</h2>
+              <ul>
                   <li>• Lower Intermediate</li>
                   <li>• Obtained the B1 Zertifikat Deutsch a long time ago.</li>
-                </ul>
-              </div>
-            </div>
+              </ul>
           </div>
-        );
-      }
-      
 
+          <!-- Español/Euskera -->
+          <div class="card light-orange">
+            <h2>ESPAÑOL / EUSKERA</h2>
+            <ul>
+                <li>• Native</li>
+            </ul>
+        </div>
+
+      </div>
+      
       <!-- Bootstrap JS (Optional if you need Bootstrap's JS components) // Masonry -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
