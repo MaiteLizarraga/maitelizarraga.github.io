@@ -192,7 +192,7 @@ li {
 }
 
 li span {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'RoxboroughCF', serif;
   font-variant: normal;
   font-size: 0.8rem;
   font-weight: normal;
@@ -264,6 +264,11 @@ img {
   border-radius: 16px;
   padding: 12px;
   color: white;
+}
+
+.cards li {
+  font-variant: normal;
+  font-family: 'RoxboroughCF';
 }
 
 
