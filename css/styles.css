@@ -271,8 +271,11 @@ img {
   font-size: 0.9rem;
   font-weight: bold;
   font-family: 'Montserrat';
-  padding: 0.5rem;
   padding-bottom: 0;
+}
+
+.cards ul {
+  padding: 0;
 }
 
 .cards li {
