@@ -192,7 +192,7 @@ li {
 }
 
 li span {
-  font-family: 'RoxboroughCF', serif;
+  font-family: 'Montserrat', serif;
   font-variant: normal;
   font-size: 0.8rem;
   font-weight: normal;
@@ -268,14 +268,16 @@ img {
 
 .cards h2 {
   color: #001f3d;
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .cards li {
   font-variant: normal;
-  font-family: 'RoxboroughCF';
+  font-family: 'Montserrat';
   font-weight: normal;
   font-size: 0.8rem;
-  padding-top: 0;
+  padding-top: 0.25rem;
 }
 
 
