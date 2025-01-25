@@ -262,42 +262,8 @@ img {
 
 .card {
   border-radius: 16px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 24px;
+  padding: 12px;
   color: white;
-}
-
-.orange {
-  background-color: #f97316;
-}
-
-.blue {
-  background-color: #1e3a8a;
-}
-
-.light-orange {
-  background-color: #fdba74;
-  color: #1f2937;
-}
-
-.light-blue {
-  background-color: #3b82f6;
-}
-
-.card h2 {
-  font-size: 1.5rem;
-  margin-bottom: 12px;
-}
-
-.card ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.card ul li {
-  margin-bottom: 8px;
-  font-size: 1rem;
 }
 
 
