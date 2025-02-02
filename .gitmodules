@@ -37,3 +37,6 @@
 [submodule "ia_tercera_edad"]
 	path = ia_tercera_edad
 	url = https://github.com/MaiteLizarraga/ia_tercera_edad.git
+[submodule "orbea_python"]
+	path = orbea_python
+	url = https://github.com/MaiteLizarraga/orbea_python.git
