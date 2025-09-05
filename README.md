@@ -1,6 +1,6 @@
 # maitelizarraga.github.io
 
-![Maite Lizarraga - Junior Data Scientist](img/banner.png)
+![Maite Lizarraga - Junior Data Scientist](img/banner_short.png)
 
 <h1>👋 - Hi visitor! Welcome</h1>
 <h3>I'm Maite Lizarraga</h3>
