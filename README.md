@@ -8,4 +8,4 @@
 <p>❤️ An IT enthusiast who has recently discovered the wonders of math. Also a polyglot: English, French, Spanish and Basque (and a bit of German)</p>
 <p>📱 Feel free to contact me: +34 623 10 10 73, maite.lizarraga@gmail.com, https://www.linkedin.com/in/maite-lizarraga-tellez/</p>
 
-[MY CV --> Maite Lizarraga - Junior Data Scientist / ML Engineer CV / AI Developer](CV Maite Lizarraga - 27_09_2025 ES.pdf)
+[MY CV --> Maite Lizarraga - Junior Data Scientist / ML Engineer CV / AI Engineer](https://github.com/MaiteLizarraga/maitelizarraga.github.io/blob/main/CV%20Maite%20Lizarraga%20-%2027_09_2025%20ES.pdf)
